@@ -64,7 +64,7 @@ void GroundStation::encolarPasada()
         archAdquisicion = new ArchivoAdquisicion();
         archAdquisicion->setName(("archivo " + std::to_string(i)).c_str());
         switch (i){
-            case 4:
+            case 3:
                 archAdquisicion->setByteLength(1000000);
                 break;
             default:

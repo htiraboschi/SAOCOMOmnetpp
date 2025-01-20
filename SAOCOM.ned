@@ -43,7 +43,8 @@ network SAOCOMNetwork
     types:
         channel GroundNetworkChannel extends DatarateChannel{
         	@class(GroundNetworkChannel);
-        	@signal[usageTime];
+        	@signal[usageTime](type=double);
+        	@statistic[usageTime](title="Network Usage Time"; record=vector);
         	};
         
     submodules:
