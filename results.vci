@@ -1,4 +1,4 @@
-file 796 1737397397                                             
+file 796 1737398428                                             
 version 3
 run General-0-20250120-15:20:30-2732
 attr configname General
@@ -24,8 +24,4 @@ config sim-time-limit 172800s
 config **.vector-recording true
 config *.groundNetworkChannel.usageTime.record true
 config output-vector-file results.vec
-
-vector 0 SAOCOMNetwork.GS.out.channel usageTime:vector ETV
-attr recordingmode vector
-attr title "Network Usage Time"
 
