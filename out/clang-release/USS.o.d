@@ -1,4 +1,3 @@
-out/clang-release//USS.o: USS.cc \
-  C:/Hernan/OMNeTpp/omnetpp-6.0.3/include/omnetpp.h
+out/clang-release//USS.o: USS.cc C:/Omnetpp/omnetpp-6.1/include/omnetpp.h
 
-C:/Hernan/OMNeTpp/omnetpp-6.0.3/include/omnetpp.h:
+C:/Omnetpp/omnetpp-6.1/include/omnetpp.h:

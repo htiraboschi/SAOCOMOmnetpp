@@ -1,9 +1,9 @@
-file 796 1737398428                                             
+file 2342 1739401225                                            
 version 3
-run General-0-20250120-15:20:30-2732
+run General-0-20250212-20:00:08-21676
 attr configname General
-attr datetime 20250120-15:20:30
-attr datetimef 20250120-152030
+attr datetime 20250212-20:00:08
+attr datetimef 20250212-200008
 attr experiment General
 attr inifile SAOCOM.ini
 attr iterationvars ""
@@ -11,17 +11,24 @@ attr iterationvarsd ""
 attr iterationvarsf ""
 attr measurement ""
 attr network SAOCOMNetwork
-attr processid 2732
+attr processid 21676
 attr repetition 0
 attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 0
-config debug-on-errors true
 config network SAOCOMNetwork
 config record-eventlog true
-config sim-time-limit 172800s
+config sim-time-limit 518400s
 config **.vector-recording true
 config *.groundNetworkChannel.usageTime.record true
 config output-vector-file results.vec
+config *.sim_start_time_year 2019
+config *.sim_start_time_month 2
+config *.sim_start_time_day 23
+
+vector 0 SAOCOMNetwork.GS.out.channel usageTime:vector ETV
+attr recordingmode vector
+attr title "Network Usage Time"
+0	867 1473 3 208 71340 511200 90 30 200 4230 432900
 

@@ -22,6 +22,7 @@ import ned.IUnidirectionalChannel;
 simple GroundStation
 {
     @display("i=device/receiverdish");
+    @signal[contact](type=double);
     gates:
         output out;
 }
@@ -38,10 +39,13 @@ simple USS
 
 network SAOCOMNetwork
 {
-
     @display("bgb=316.9231,261.53848");
     types:
         channel GroundNetworkChannel extends DatarateChannel{
+            parameters:
+                int sim_start_time_year = 2019;
+        		int sim_start_time_month = 2;
+        		int sim_start_time_day = 23;
         	@class(GroundNetworkChannel);
         	@signal[usageTime](type=double);
         	@statistic[usageTime](title="Network Usage Time"; record=vector);
@@ -53,5 +57,5 @@ network SAOCOMNetwork
             @display("p=256.15387,130");
         }
     connections:
-        GS.out --> GroundNetworkChannel { datarate = 400Mbps;} --> USS.in;
+        GS.out --> GroundNetworkChannel { datarate = 4Mbps;} --> USS.in;
 }

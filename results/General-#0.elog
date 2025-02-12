@@ -1,4 +1,4 @@
-SB ov 1537 ev 2 rid General-0-20250120-15:20:30-2732
+SB ov 1537 ev 2 rid General-0-20250212-20:00:08-21676
 
 E # 0 t 0 m 1 ce -1 msg -1
 MC id 1 c omnetpp::cModule t SAOCOMNetwork n SAOCOMNetwork cm 1
@@ -12,11 +12,1381 @@ MDC id 3 d p=256.15387,130;i=device/lan-bus
 CC sm 2 sg 1 dm 3 dg 0
 CDC sm 2 sg 1 d ""
 CMB sm 1 tm 2 m initialize(0)
-CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n encolarPasada pe -1
-BS id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n encolarPasada sm 2 st 0 am 2 at 0 pe 0
-ES id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n encolarPasada sm 2 st 0 am 2 at 0 pe 0
+CM id 0 tid 0 eid 0 etid 0 c omnetpp::cMessage n "" pe -1
+CM id 1 tid 1 eid 1 etid 1 c omnetpp::cMessage n "" pe -1
+CM id 2 tid 2 eid 2 etid 2 c omnetpp::cMessage n "" pe -1
+CM id 3 tid 3 eid 3 etid 3 c omnetpp::cMessage n "" pe -1
+CM id 4 tid 4 eid 4 etid 4 c omnetpp::cMessage n "" pe -1
+CM id 5 tid 5 eid 5 etid 5 c omnetpp::cMessage n "" pe -1
+CM id 6 tid 6 eid 6 etid 6 c omnetpp::cMessage n "" pe -1
+CM id 7 tid 7 eid 7 etid 7 c omnetpp::cMessage n "" pe -1
+CM id 8 tid 8 eid 8 etid 8 c omnetpp::cMessage n "" pe -1
+CM id 9 tid 9 eid 9 etid 9 c omnetpp::cMessage n "" pe -1
+CM id 10 tid 10 eid 10 etid 10 c omnetpp::cMessage n "" pe -1
+CM id 11 tid 11 eid 11 etid 11 c omnetpp::cMessage n "" pe -1
+CM id 12 tid 12 eid 12 etid 12 c omnetpp::cMessage n "" pe -1
+CM id 13 tid 13 eid 13 etid 13 c omnetpp::cMessage n "" pe -1
+CM id 14 tid 14 eid 14 etid 14 c omnetpp::cMessage n "" pe -1
+CM id 15 tid 15 eid 15 etid 15 c omnetpp::cMessage n "" pe -1
+CM id 16 tid 16 eid 16 etid 16 c omnetpp::cMessage n "" pe -1
+CM id 17 tid 17 eid 17 etid 17 c omnetpp::cMessage n "" pe -1
+CM id 18 tid 18 eid 18 etid 18 c omnetpp::cMessage n "" pe -1
+CM id 19 tid 19 eid 19 etid 19 c omnetpp::cMessage n "" pe -1
+BS id 0 tid 0 eid 0 etid 0 c Evento n encolarPasada sm 2 st 0 am 2 at 35300 pe 0
+ES id 0 tid 0 eid 0 etid 0 c Evento n encolarPasada sm 2 st 0 am 2 at 35300 pe 0
+BS id 1 tid 1 eid 1 etid 1 c Evento n encolarPasada sm 2 st 0 am 2 at 41080 pe 0
+ES id 1 tid 1 eid 1 etid 1 c Evento n encolarPasada sm 2 st 0 am 2 at 41080 pe 0
+BS id 2 tid 2 eid 2 etid 2 c Evento n encolarPasada sm 2 st 0 am 2 at 74350 pe 0
+ES id 2 tid 2 eid 2 etid 2 c Evento n encolarPasada sm 2 st 0 am 2 at 74350 pe 0
+BS id 3 tid 3 eid 3 etid 3 c Evento n encolarPasada sm 2 st 0 am 2 at 80020 pe 0
+ES id 3 tid 3 eid 3 etid 3 c Evento n encolarPasada sm 2 st 0 am 2 at 80020 pe 0
+BS id 4 tid 4 eid 4 etid 4 c Evento n encolarPasada sm 2 st 0 am 2 at 122760 pe 0
+ES id 4 tid 4 eid 4 etid 4 c Evento n encolarPasada sm 2 st 0 am 2 at 122760 pe 0
+BS id 5 tid 5 eid 5 etid 5 c Evento n encolarPasada sm 2 st 0 am 2 at 128580 pe 0
+ES id 5 tid 5 eid 5 etid 5 c Evento n encolarPasada sm 2 st 0 am 2 at 128580 pe 0
+BS id 6 tid 6 eid 6 etid 6 c Evento n encolarPasada sm 2 st 0 am 2 at 161780 pe 0
+ES id 6 tid 6 eid 6 etid 6 c Evento n encolarPasada sm 2 st 0 am 2 at 161780 pe 0
+BS id 7 tid 7 eid 7 etid 7 c Evento n encolarPasada sm 2 st 0 am 2 at 167520 pe 0
+ES id 7 tid 7 eid 7 etid 7 c Evento n encolarPasada sm 2 st 0 am 2 at 167520 pe 0
+BS id 8 tid 8 eid 8 etid 8 c Evento n encolarPasada sm 2 st 0 am 2 at 210240 pe 0
+ES id 8 tid 8 eid 8 etid 8 c Evento n encolarPasada sm 2 st 0 am 2 at 210240 pe 0
+BS id 9 tid 9 eid 9 etid 9 c Evento n encolarPasada sm 2 st 0 am 2 at 249230 pe 0
+ES id 9 tid 9 eid 9 etid 9 c Evento n encolarPasada sm 2 st 0 am 2 at 249230 pe 0
+BS id 10 tid 10 eid 10 etid 10 c Evento n encolarPasada sm 2 st 0 am 2 at 255040 pe 0
+ES id 10 tid 10 eid 10 etid 10 c Evento n encolarPasada sm 2 st 0 am 2 at 255040 pe 0
+BS id 11 tid 11 eid 11 etid 11 c Evento n encolarPasada sm 2 st 0 am 2 at 297720 pe 0
+ES id 11 tid 11 eid 11 etid 11 c Evento n encolarPasada sm 2 st 0 am 2 at 297720 pe 0
+BS id 12 tid 12 eid 12 etid 12 c Evento n encolarPasada sm 2 st 0 am 2 at 336690 pe 0
+ES id 12 tid 12 eid 12 etid 12 c Evento n encolarPasada sm 2 st 0 am 2 at 336690 pe 0
+BS id 13 tid 13 eid 13 etid 13 c Evento n encolarPasada sm 2 st 0 am 2 at 379490 pe 0
+ES id 13 tid 13 eid 13 etid 13 c Evento n encolarPasada sm 2 st 0 am 2 at 379490 pe 0
+BS id 14 tid 14 eid 14 etid 14 c Evento n encolarPasada sm 2 st 0 am 2 at 385210 pe 0
+ES id 14 tid 14 eid 14 etid 14 c Evento n encolarPasada sm 2 st 0 am 2 at 385210 pe 0
+BS id 15 tid 15 eid 15 etid 15 c Evento n encolarPasada sm 2 st 0 am 2 at 424170 pe 0
+ES id 15 tid 15 eid 15 etid 15 c Evento n encolarPasada sm 2 st 0 am 2 at 424170 pe 0
+BS id 16 tid 16 eid 16 etid 16 c Evento n encolarPasada sm 2 st 0 am 2 at 466940 pe 0
+ES id 16 tid 16 eid 16 etid 16 c Evento n encolarPasada sm 2 st 0 am 2 at 466940 pe 0
+BS id 17 tid 17 eid 17 etid 17 c Evento n encolarPasada sm 2 st 0 am 2 at 472710 pe 0
+ES id 17 tid 17 eid 17 etid 17 c Evento n encolarPasada sm 2 st 0 am 2 at 472710 pe 0
+BS id 18 tid 18 eid 18 etid 18 c Evento n encolarPasada sm 2 st 0 am 2 at 506000 pe 0
+ES id 18 tid 18 eid 18 etid 18 c Evento n encolarPasada sm 2 st 0 am 2 at 506000 pe 0
+BS id 19 tid 19 eid 19 etid 19 c Evento n encolarPasada sm 2 st 0 am 2 at 511650 pe 0
+ES id 19 tid 19 eid 19 etid 19 c Evento n encolarPasada sm 2 st 0 am 2 at 511650 pe 0
 CME
 CMB sm 1 tm 3 m initialize(0)
 CME
 
-SE e 0 c -1 m ""
+E # 1 t 35300 m 2 ce 0 msg 0
+CM id 20 tid 20 eid 20 etid 20 c omnetpp::cMessage n "" pe -1
+CM id 21 tid 21 eid 21 etid 21 c omnetpp::cMessage n "" pe -1
+CM id 22 tid 22 eid 22 etid 22 c omnetpp::cMessage n "" pe -1
+CM id 23 tid 23 eid 23 etid 23 c omnetpp::cMessage n "" pe -1
+CM id 24 tid 24 eid 24 etid 24 c omnetpp::cMessage n "" pe -1
+CM id 25 tid 25 eid 25 etid 25 c omnetpp::cMessage n "" pe -1
+CM id 26 tid 26 eid 26 etid 26 c omnetpp::cMessage n "" pe -1
+CM id 27 tid 27 eid 27 etid 27 c omnetpp::cMessage n "" pe -1
+CM id 28 tid 28 eid 28 etid 28 c omnetpp::cMessage n "" pe -1
+CM id 29 tid 29 eid 29 etid 29 c omnetpp::cMessage n "" pe -1
+CM id 30 tid 30 eid 30 etid 30 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 30 tid 30 eid 30 etid 30 c omnetpp::cMessage n nuevoArchivo sm 2 st 35300 am 2 at 71340 pe 1
+ES id 30 tid 30 eid 30 etid 30 c omnetpp::cMessage n nuevoArchivo sm 2 st 35300 am 2 at 71340 pe 1
+
+E # 2 t 41080 m 2 ce 0 msg 1
+CM id 31 tid 31 eid 31 etid 31 c omnetpp::cMessage n "" pe -1
+CM id 32 tid 32 eid 32 etid 32 c omnetpp::cMessage n "" pe -1
+CM id 33 tid 33 eid 33 etid 33 c omnetpp::cMessage n "" pe -1
+CM id 34 tid 34 eid 34 etid 34 c omnetpp::cMessage n "" pe -1
+CM id 35 tid 35 eid 35 etid 35 c omnetpp::cMessage n "" pe -1
+CM id 36 tid 36 eid 36 etid 36 c omnetpp::cMessage n "" pe -1
+CM id 37 tid 37 eid 37 etid 37 c omnetpp::cMessage n "" pe -1
+CM id 38 tid 38 eid 38 etid 38 c omnetpp::cMessage n "" pe -1
+CM id 39 tid 39 eid 39 etid 39 c omnetpp::cMessage n "" pe -1
+CM id 40 tid 40 eid 40 etid 40 c omnetpp::cMessage n "" pe -1
+CM id 41 tid 41 eid 41 etid 41 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 41 tid 41 eid 41 etid 41 c omnetpp::cMessage n nuevoArchivo sm 2 st 41080 am 2 at 82850 pe 2
+ES id 41 tid 41 eid 41 etid 41 c omnetpp::cMessage n nuevoArchivo sm 2 st 41080 am 2 at 82850 pe 2
+
+E # 3 t 71340 m 2 ce 1 msg 30
+BS id 31 tid 31 eid 31 etid 31 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 31 tid 31 eid 31 etid 31 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 71340 am 3 ag 0 at 71370 pe 3
+CL id 42 tid 31 eid 42 etid 31 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 31
+CM id 42 tid 42 eid 42 etid 42 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 42 tid 42 eid 42 etid 42 c omnetpp::cMessage n nuevoArchivo sm 2 st 71340 am 2 at 71370 pe 3
+ES id 42 tid 42 eid 42 etid 42 c omnetpp::cMessage n nuevoArchivo sm 2 st 71340 am 2 at 71370 pe 3
+
+E # 4 t 71370 m 3 ce 3 msg 31
+
+E # 5 t 71370 m 2 ce 3 msg 42
+BS id 32 tid 32 eid 32 etid 32 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 32 tid 32 eid 32 etid 32 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 71370 am 3 ag 0 at 71400 pe 5
+CL id 43 tid 32 eid 43 etid 32 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 32
+CM id 43 tid 43 eid 43 etid 43 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 43 tid 43 eid 43 etid 43 c omnetpp::cMessage n nuevoArchivo sm 2 st 71370 am 2 at 71400 pe 5
+ES id 43 tid 43 eid 43 etid 43 c omnetpp::cMessage n nuevoArchivo sm 2 st 71370 am 2 at 71400 pe 5
+
+E # 6 t 71400 m 3 ce 5 msg 32
+
+E # 7 t 71400 m 2 ce 5 msg 43
+BS id 33 tid 33 eid 33 etid 33 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 2
+SH sm 2 sg 1 td 200 rd 200
+ES id 33 tid 33 eid 33 etid 33 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 71400 am 3 ag 0 at 71600 pe 7
+CL id 44 tid 33 eid 44 etid 33 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 33
+CM id 44 tid 44 eid 44 etid 44 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 44 tid 44 eid 44 etid 44 c omnetpp::cMessage n nuevoArchivo sm 2 st 71400 am 2 at 71600 pe 7
+ES id 44 tid 44 eid 44 etid 44 c omnetpp::cMessage n nuevoArchivo sm 2 st 71400 am 2 at 71600 pe 7
+
+E # 8 t 71600 m 3 ce 7 msg 33
+
+E # 9 t 71600 m 2 ce 7 msg 44
+BS id 34 tid 34 eid 34 etid 34 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 34 tid 34 eid 34 etid 34 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 71600 am 3 ag 0 at 71630 pe 9
+CL id 45 tid 34 eid 45 etid 34 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 34
+CM id 45 tid 45 eid 45 etid 45 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 45 tid 45 eid 45 etid 45 c omnetpp::cMessage n nuevoArchivo sm 2 st 71600 am 2 at 71630 pe 9
+ES id 45 tid 45 eid 45 etid 45 c omnetpp::cMessage n nuevoArchivo sm 2 st 71600 am 2 at 71630 pe 9
+
+E # 10 t 71630 m 3 ce 9 msg 34
+
+E # 11 t 71630 m 2 ce 9 msg 45
+BS id 35 tid 35 eid 35 etid 35 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 35 tid 35 eid 35 etid 35 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 71630 am 3 ag 0 at 71660 pe 11
+CL id 46 tid 35 eid 46 etid 35 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 35
+CM id 46 tid 46 eid 46 etid 46 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 46 tid 46 eid 46 etid 46 c omnetpp::cMessage n nuevoArchivo sm 2 st 71630 am 2 at 71660 pe 11
+ES id 46 tid 46 eid 46 etid 46 c omnetpp::cMessage n nuevoArchivo sm 2 st 71630 am 2 at 71660 pe 11
+
+E # 12 t 71660 m 3 ce 11 msg 35
+
+E # 13 t 71660 m 2 ce 11 msg 46
+BS id 36 tid 36 eid 36 etid 36 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 36 tid 36 eid 36 etid 36 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 71660 am 3 ag 0 at 71690 pe 13
+CL id 47 tid 36 eid 47 etid 36 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 36
+CM id 47 tid 47 eid 47 etid 47 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 47 tid 47 eid 47 etid 47 c omnetpp::cMessage n nuevoArchivo sm 2 st 71660 am 2 at 71690 pe 13
+ES id 47 tid 47 eid 47 etid 47 c omnetpp::cMessage n nuevoArchivo sm 2 st 71660 am 2 at 71690 pe 13
+
+E # 14 t 71690 m 3 ce 13 msg 36
+
+E # 15 t 71690 m 2 ce 13 msg 47
+BS id 37 tid 37 eid 37 etid 37 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 37 tid 37 eid 37 etid 37 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 71690 am 3 ag 0 at 71720 pe 15
+CL id 48 tid 37 eid 48 etid 37 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 37
+CM id 48 tid 48 eid 48 etid 48 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 48 tid 48 eid 48 etid 48 c omnetpp::cMessage n nuevoArchivo sm 2 st 71690 am 2 at 71720 pe 15
+ES id 48 tid 48 eid 48 etid 48 c omnetpp::cMessage n nuevoArchivo sm 2 st 71690 am 2 at 71720 pe 15
+
+E # 16 t 71720 m 3 ce 15 msg 37
+
+E # 17 t 71720 m 2 ce 15 msg 48
+BS id 38 tid 38 eid 38 etid 38 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 38 tid 38 eid 38 etid 38 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 71720 am 3 ag 0 at 71750 pe 17
+CL id 49 tid 38 eid 49 etid 38 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 38
+CM id 49 tid 49 eid 49 etid 49 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 49 tid 49 eid 49 etid 49 c omnetpp::cMessage n nuevoArchivo sm 2 st 71720 am 2 at 71750 pe 17
+ES id 49 tid 49 eid 49 etid 49 c omnetpp::cMessage n nuevoArchivo sm 2 st 71720 am 2 at 71750 pe 17
+
+E # 18 t 71750 m 3 ce 17 msg 38
+
+E # 19 t 71750 m 2 ce 17 msg 49
+BS id 39 tid 39 eid 39 etid 39 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 39 tid 39 eid 39 etid 39 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 71750 am 3 ag 0 at 71780 pe 19
+CL id 50 tid 39 eid 50 etid 39 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 39
+CM id 50 tid 50 eid 50 etid 50 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 50 tid 50 eid 50 etid 50 c omnetpp::cMessage n nuevoArchivo sm 2 st 71750 am 2 at 71780 pe 19
+ES id 50 tid 50 eid 50 etid 50 c omnetpp::cMessage n nuevoArchivo sm 2 st 71750 am 2 at 71780 pe 19
+
+E # 20 t 71780 m 3 ce 19 msg 39
+
+E # 21 t 71780 m 2 ce 19 msg 50
+BS id 40 tid 40 eid 40 etid 40 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 2
+SH sm 2 sg 1 td 30 rd 30
+ES id 40 tid 40 eid 40 etid 40 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 71780 am 3 ag 0 at 71810 pe 21
+CL id 51 tid 40 eid 51 etid 40 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 40
+CM id 51 tid 51 eid 51 etid 51 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 51 tid 51 eid 51 etid 51 c omnetpp::cMessage n nuevoArchivo sm 2 st 71780 am 2 at 71810 pe 21
+ES id 51 tid 51 eid 51 etid 51 c omnetpp::cMessage n nuevoArchivo sm 2 st 71780 am 2 at 71810 pe 21
+
+E # 22 t 71810 m 3 ce 21 msg 40
+
+E # 23 t 71810 m 2 ce 21 msg 51
+
+E # 24 t 74350 m 2 ce 0 msg 2
+CM id 52 tid 52 eid 52 etid 52 c omnetpp::cMessage n "" pe -1
+CM id 53 tid 53 eid 53 etid 53 c omnetpp::cMessage n "" pe -1
+CM id 54 tid 54 eid 54 etid 54 c omnetpp::cMessage n "" pe -1
+CM id 55 tid 55 eid 55 etid 55 c omnetpp::cMessage n "" pe -1
+CM id 56 tid 56 eid 56 etid 56 c omnetpp::cMessage n "" pe -1
+CM id 57 tid 57 eid 57 etid 57 c omnetpp::cMessage n "" pe -1
+CM id 58 tid 58 eid 58 etid 58 c omnetpp::cMessage n "" pe -1
+CM id 59 tid 59 eid 59 etid 59 c omnetpp::cMessage n "" pe -1
+CM id 60 tid 60 eid 60 etid 60 c omnetpp::cMessage n "" pe -1
+CM id 61 tid 61 eid 61 etid 61 c omnetpp::cMessage n "" pe -1
+CM id 62 tid 62 eid 62 etid 62 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 62 tid 62 eid 62 etid 62 c omnetpp::cMessage n nuevoArchivo sm 2 st 74350 am 2 at 149330 pe 24
+ES id 62 tid 62 eid 62 etid 62 c omnetpp::cMessage n nuevoArchivo sm 2 st 74350 am 2 at 149330 pe 24
+
+E # 25 t 80020 m 2 ce 0 msg 3
+CM id 63 tid 63 eid 63 etid 63 c omnetpp::cMessage n "" pe -1
+CM id 64 tid 64 eid 64 etid 64 c omnetpp::cMessage n "" pe -1
+CM id 65 tid 65 eid 65 etid 65 c omnetpp::cMessage n "" pe -1
+CM id 66 tid 66 eid 66 etid 66 c omnetpp::cMessage n "" pe -1
+CM id 67 tid 67 eid 67 etid 67 c omnetpp::cMessage n "" pe -1
+CM id 68 tid 68 eid 68 etid 68 c omnetpp::cMessage n "" pe -1
+CM id 69 tid 69 eid 69 etid 69 c omnetpp::cMessage n "" pe -1
+CM id 70 tid 70 eid 70 etid 70 c omnetpp::cMessage n "" pe -1
+CM id 71 tid 71 eid 71 etid 71 c omnetpp::cMessage n "" pe -1
+CM id 72 tid 72 eid 72 etid 72 c omnetpp::cMessage n "" pe -1
+CM id 73 tid 73 eid 73 etid 73 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 73 tid 73 eid 73 etid 73 c omnetpp::cMessage n nuevoArchivo sm 2 st 80020 am 2 at 160810 pe 25
+ES id 73 tid 73 eid 73 etid 73 c omnetpp::cMessage n nuevoArchivo sm 2 st 80020 am 2 at 160810 pe 25
+
+E # 26 t 82850 m 2 ce 2 msg 41
+BS id 63 tid 63 eid 63 etid 63 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 63 tid 63 eid 63 etid 63 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 82850 am 3 ag 0 at 82880 pe 26
+CL id 74 tid 63 eid 74 etid 63 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 63
+CM id 74 tid 74 eid 74 etid 74 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 74 tid 74 eid 74 etid 74 c omnetpp::cMessage n nuevoArchivo sm 2 st 82850 am 2 at 82880 pe 26
+ES id 74 tid 74 eid 74 etid 74 c omnetpp::cMessage n nuevoArchivo sm 2 st 82850 am 2 at 82880 pe 26
+
+E # 27 t 82880 m 3 ce 26 msg 63
+
+E # 28 t 82880 m 2 ce 26 msg 74
+BS id 64 tid 64 eid 64 etid 64 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 64 tid 64 eid 64 etid 64 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 82880 am 3 ag 0 at 82910 pe 28
+CL id 75 tid 64 eid 75 etid 64 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 64
+CM id 75 tid 75 eid 75 etid 75 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 75 tid 75 eid 75 etid 75 c omnetpp::cMessage n nuevoArchivo sm 2 st 82880 am 2 at 82910 pe 28
+ES id 75 tid 75 eid 75 etid 75 c omnetpp::cMessage n nuevoArchivo sm 2 st 82880 am 2 at 82910 pe 28
+
+E # 29 t 82910 m 3 ce 28 msg 64
+
+E # 30 t 82910 m 2 ce 28 msg 75
+BS id 65 tid 65 eid 65 etid 65 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 25
+SH sm 2 sg 1 td 200 rd 200
+ES id 65 tid 65 eid 65 etid 65 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 82910 am 3 ag 0 at 83110 pe 30
+CL id 76 tid 65 eid 76 etid 65 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 65
+CM id 76 tid 76 eid 76 etid 76 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 76 tid 76 eid 76 etid 76 c omnetpp::cMessage n nuevoArchivo sm 2 st 82910 am 2 at 83110 pe 30
+ES id 76 tid 76 eid 76 etid 76 c omnetpp::cMessage n nuevoArchivo sm 2 st 82910 am 2 at 83110 pe 30
+
+E # 31 t 83110 m 3 ce 30 msg 65
+
+E # 32 t 83110 m 2 ce 30 msg 76
+BS id 66 tid 66 eid 66 etid 66 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 66 tid 66 eid 66 etid 66 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 83110 am 3 ag 0 at 83140 pe 32
+CL id 77 tid 66 eid 77 etid 66 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 66
+CM id 77 tid 77 eid 77 etid 77 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 77 tid 77 eid 77 etid 77 c omnetpp::cMessage n nuevoArchivo sm 2 st 83110 am 2 at 83140 pe 32
+ES id 77 tid 77 eid 77 etid 77 c omnetpp::cMessage n nuevoArchivo sm 2 st 83110 am 2 at 83140 pe 32
+
+E # 33 t 83140 m 3 ce 32 msg 66
+
+E # 34 t 83140 m 2 ce 32 msg 77
+BS id 67 tid 67 eid 67 etid 67 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 67 tid 67 eid 67 etid 67 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 83140 am 3 ag 0 at 83170 pe 34
+CL id 78 tid 67 eid 78 etid 67 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 67
+CM id 78 tid 78 eid 78 etid 78 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 78 tid 78 eid 78 etid 78 c omnetpp::cMessage n nuevoArchivo sm 2 st 83140 am 2 at 83170 pe 34
+ES id 78 tid 78 eid 78 etid 78 c omnetpp::cMessage n nuevoArchivo sm 2 st 83140 am 2 at 83170 pe 34
+
+E # 35 t 83170 m 3 ce 34 msg 67
+
+E # 36 t 83170 m 2 ce 34 msg 78
+BS id 68 tid 68 eid 68 etid 68 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 68 tid 68 eid 68 etid 68 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 83170 am 3 ag 0 at 83200 pe 36
+CL id 79 tid 68 eid 79 etid 68 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 68
+CM id 79 tid 79 eid 79 etid 79 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 79 tid 79 eid 79 etid 79 c omnetpp::cMessage n nuevoArchivo sm 2 st 83170 am 2 at 83200 pe 36
+ES id 79 tid 79 eid 79 etid 79 c omnetpp::cMessage n nuevoArchivo sm 2 st 83170 am 2 at 83200 pe 36
+
+E # 37 t 83200 m 3 ce 36 msg 68
+
+E # 38 t 83200 m 2 ce 36 msg 79
+BS id 69 tid 69 eid 69 etid 69 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 69 tid 69 eid 69 etid 69 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 83200 am 3 ag 0 at 83230 pe 38
+CL id 80 tid 69 eid 80 etid 69 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 69
+CM id 80 tid 80 eid 80 etid 80 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 80 tid 80 eid 80 etid 80 c omnetpp::cMessage n nuevoArchivo sm 2 st 83200 am 2 at 83230 pe 38
+ES id 80 tid 80 eid 80 etid 80 c omnetpp::cMessage n nuevoArchivo sm 2 st 83200 am 2 at 83230 pe 38
+
+E # 39 t 83230 m 3 ce 38 msg 69
+
+E # 40 t 83230 m 2 ce 38 msg 80
+BS id 70 tid 70 eid 70 etid 70 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 70 tid 70 eid 70 etid 70 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 83230 am 3 ag 0 at 83260 pe 40
+CL id 81 tid 70 eid 81 etid 70 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 70
+CM id 81 tid 81 eid 81 etid 81 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 81 tid 81 eid 81 etid 81 c omnetpp::cMessage n nuevoArchivo sm 2 st 83230 am 2 at 83260 pe 40
+ES id 81 tid 81 eid 81 etid 81 c omnetpp::cMessage n nuevoArchivo sm 2 st 83230 am 2 at 83260 pe 40
+
+E # 41 t 83260 m 3 ce 40 msg 70
+
+E # 42 t 83260 m 2 ce 40 msg 81
+BS id 71 tid 71 eid 71 etid 71 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 71 tid 71 eid 71 etid 71 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 83260 am 3 ag 0 at 83290 pe 42
+CL id 82 tid 71 eid 82 etid 71 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 71
+CM id 82 tid 82 eid 82 etid 82 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 82 tid 82 eid 82 etid 82 c omnetpp::cMessage n nuevoArchivo sm 2 st 83260 am 2 at 83290 pe 42
+ES id 82 tid 82 eid 82 etid 82 c omnetpp::cMessage n nuevoArchivo sm 2 st 83260 am 2 at 83290 pe 42
+
+E # 43 t 83290 m 3 ce 42 msg 71
+
+E # 44 t 83290 m 2 ce 42 msg 82
+BS id 72 tid 72 eid 72 etid 72 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 25
+SH sm 2 sg 1 td 30 rd 30
+ES id 72 tid 72 eid 72 etid 72 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 83290 am 3 ag 0 at 83320 pe 44
+CL id 83 tid 72 eid 83 etid 72 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 72
+CM id 83 tid 83 eid 83 etid 83 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 83 tid 83 eid 83 etid 83 c omnetpp::cMessage n nuevoArchivo sm 2 st 83290 am 2 at 83320 pe 44
+ES id 83 tid 83 eid 83 etid 83 c omnetpp::cMessage n nuevoArchivo sm 2 st 83290 am 2 at 83320 pe 44
+
+E # 45 t 83320 m 3 ce 44 msg 72
+
+E # 46 t 83320 m 2 ce 44 msg 83
+
+E # 47 t 122760 m 2 ce 0 msg 4
+CM id 84 tid 84 eid 84 etid 84 c omnetpp::cMessage n "" pe -1
+CM id 85 tid 85 eid 85 etid 85 c omnetpp::cMessage n "" pe -1
+CM id 86 tid 86 eid 86 etid 86 c omnetpp::cMessage n "" pe -1
+CM id 87 tid 87 eid 87 etid 87 c omnetpp::cMessage n "" pe -1
+CM id 88 tid 88 eid 88 etid 88 c omnetpp::cMessage n "" pe -1
+CM id 89 tid 89 eid 89 etid 89 c omnetpp::cMessage n "" pe -1
+CM id 90 tid 90 eid 90 etid 90 c omnetpp::cMessage n "" pe -1
+CM id 91 tid 91 eid 91 etid 91 c omnetpp::cMessage n "" pe -1
+CM id 92 tid 92 eid 92 etid 92 c omnetpp::cMessage n "" pe -1
+CM id 93 tid 93 eid 93 etid 93 c omnetpp::cMessage n "" pe -1
+CM id 94 tid 94 eid 94 etid 94 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 94 tid 94 eid 94 etid 94 c omnetpp::cMessage n nuevoArchivo sm 2 st 122760 am 2 at 246300 pe 47
+ES id 94 tid 94 eid 94 etid 94 c omnetpp::cMessage n nuevoArchivo sm 2 st 122760 am 2 at 246300 pe 47
+
+E # 48 t 128580 m 2 ce 0 msg 5
+CM id 95 tid 95 eid 95 etid 95 c omnetpp::cMessage n "" pe -1
+CM id 96 tid 96 eid 96 etid 96 c omnetpp::cMessage n "" pe -1
+CM id 97 tid 97 eid 97 etid 97 c omnetpp::cMessage n "" pe -1
+CM id 98 tid 98 eid 98 etid 98 c omnetpp::cMessage n "" pe -1
+CM id 99 tid 99 eid 99 etid 99 c omnetpp::cMessage n "" pe -1
+CM id 100 tid 100 eid 100 etid 100 c omnetpp::cMessage n "" pe -1
+CM id 101 tid 101 eid 101 etid 101 c omnetpp::cMessage n "" pe -1
+CM id 102 tid 102 eid 102 etid 102 c omnetpp::cMessage n "" pe -1
+CM id 103 tid 103 eid 103 etid 103 c omnetpp::cMessage n "" pe -1
+CM id 104 tid 104 eid 104 etid 104 c omnetpp::cMessage n "" pe -1
+CM id 105 tid 105 eid 105 etid 105 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 105 tid 105 eid 105 etid 105 c omnetpp::cMessage n nuevoArchivo sm 2 st 128580 am 2 at 257790 pe 48
+ES id 105 tid 105 eid 105 etid 105 c omnetpp::cMessage n nuevoArchivo sm 2 st 128580 am 2 at 257790 pe 48
+
+E # 49 t 149330 m 2 ce 24 msg 62
+BS id 95 tid 95 eid 95 etid 95 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 95 tid 95 eid 95 etid 95 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 149330 am 3 ag 0 at 149360 pe 49
+CL id 106 tid 95 eid 106 etid 95 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 95
+CM id 106 tid 106 eid 106 etid 106 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 106 tid 106 eid 106 etid 106 c omnetpp::cMessage n nuevoArchivo sm 2 st 149330 am 2 at 149360 pe 49
+ES id 106 tid 106 eid 106 etid 106 c omnetpp::cMessage n nuevoArchivo sm 2 st 149330 am 2 at 149360 pe 49
+
+E # 50 t 149360 m 3 ce 49 msg 95
+
+E # 51 t 149360 m 2 ce 49 msg 106
+BS id 96 tid 96 eid 96 etid 96 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 96 tid 96 eid 96 etid 96 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 149360 am 3 ag 0 at 149390 pe 51
+CL id 107 tid 96 eid 107 etid 96 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 96
+CM id 107 tid 107 eid 107 etid 107 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 107 tid 107 eid 107 etid 107 c omnetpp::cMessage n nuevoArchivo sm 2 st 149360 am 2 at 149390 pe 51
+ES id 107 tid 107 eid 107 etid 107 c omnetpp::cMessage n nuevoArchivo sm 2 st 149360 am 2 at 149390 pe 51
+
+E # 52 t 149390 m 3 ce 51 msg 96
+
+E # 53 t 149390 m 2 ce 51 msg 107
+BS id 97 tid 97 eid 97 etid 97 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 48
+SH sm 2 sg 1 td 200 rd 200
+ES id 97 tid 97 eid 97 etid 97 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 149390 am 3 ag 0 at 149590 pe 53
+CL id 108 tid 97 eid 108 etid 97 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 97
+CM id 108 tid 108 eid 108 etid 108 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 108 tid 108 eid 108 etid 108 c omnetpp::cMessage n nuevoArchivo sm 2 st 149390 am 2 at 149590 pe 53
+ES id 108 tid 108 eid 108 etid 108 c omnetpp::cMessage n nuevoArchivo sm 2 st 149390 am 2 at 149590 pe 53
+
+E # 54 t 149590 m 3 ce 53 msg 97
+
+E # 55 t 149590 m 2 ce 53 msg 108
+BS id 98 tid 98 eid 98 etid 98 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 98 tid 98 eid 98 etid 98 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 149590 am 3 ag 0 at 149620 pe 55
+CL id 109 tid 98 eid 109 etid 98 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 98
+CM id 109 tid 109 eid 109 etid 109 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 109 tid 109 eid 109 etid 109 c omnetpp::cMessage n nuevoArchivo sm 2 st 149590 am 2 at 149620 pe 55
+ES id 109 tid 109 eid 109 etid 109 c omnetpp::cMessage n nuevoArchivo sm 2 st 149590 am 2 at 149620 pe 55
+
+E # 56 t 149620 m 3 ce 55 msg 98
+
+E # 57 t 149620 m 2 ce 55 msg 109
+BS id 99 tid 99 eid 99 etid 99 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 99 tid 99 eid 99 etid 99 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 149620 am 3 ag 0 at 149650 pe 57
+CL id 110 tid 99 eid 110 etid 99 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 99
+CM id 110 tid 110 eid 110 etid 110 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 110 tid 110 eid 110 etid 110 c omnetpp::cMessage n nuevoArchivo sm 2 st 149620 am 2 at 149650 pe 57
+ES id 110 tid 110 eid 110 etid 110 c omnetpp::cMessage n nuevoArchivo sm 2 st 149620 am 2 at 149650 pe 57
+
+E # 58 t 149650 m 3 ce 57 msg 99
+
+E # 59 t 149650 m 2 ce 57 msg 110
+BS id 100 tid 100 eid 100 etid 100 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 100 tid 100 eid 100 etid 100 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 149650 am 3 ag 0 at 149680 pe 59
+CL id 111 tid 100 eid 111 etid 100 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 100
+CM id 111 tid 111 eid 111 etid 111 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 111 tid 111 eid 111 etid 111 c omnetpp::cMessage n nuevoArchivo sm 2 st 149650 am 2 at 149680 pe 59
+ES id 111 tid 111 eid 111 etid 111 c omnetpp::cMessage n nuevoArchivo sm 2 st 149650 am 2 at 149680 pe 59
+
+E # 60 t 149680 m 3 ce 59 msg 100
+
+E # 61 t 149680 m 2 ce 59 msg 111
+BS id 101 tid 101 eid 101 etid 101 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 101 tid 101 eid 101 etid 101 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 149680 am 3 ag 0 at 149710 pe 61
+CL id 112 tid 101 eid 112 etid 101 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 101
+CM id 112 tid 112 eid 112 etid 112 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 112 tid 112 eid 112 etid 112 c omnetpp::cMessage n nuevoArchivo sm 2 st 149680 am 2 at 149710 pe 61
+ES id 112 tid 112 eid 112 etid 112 c omnetpp::cMessage n nuevoArchivo sm 2 st 149680 am 2 at 149710 pe 61
+
+E # 62 t 149710 m 3 ce 61 msg 101
+
+E # 63 t 149710 m 2 ce 61 msg 112
+BS id 102 tid 102 eid 102 etid 102 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 102 tid 102 eid 102 etid 102 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 149710 am 3 ag 0 at 149740 pe 63
+CL id 113 tid 102 eid 113 etid 102 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 102
+CM id 113 tid 113 eid 113 etid 113 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 113 tid 113 eid 113 etid 113 c omnetpp::cMessage n nuevoArchivo sm 2 st 149710 am 2 at 149740 pe 63
+ES id 113 tid 113 eid 113 etid 113 c omnetpp::cMessage n nuevoArchivo sm 2 st 149710 am 2 at 149740 pe 63
+
+E # 64 t 149740 m 3 ce 63 msg 102
+
+E # 65 t 149740 m 2 ce 63 msg 113
+BS id 103 tid 103 eid 103 etid 103 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 103 tid 103 eid 103 etid 103 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 149740 am 3 ag 0 at 149770 pe 65
+CL id 114 tid 103 eid 114 etid 103 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 103
+CM id 114 tid 114 eid 114 etid 114 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 114 tid 114 eid 114 etid 114 c omnetpp::cMessage n nuevoArchivo sm 2 st 149740 am 2 at 149770 pe 65
+ES id 114 tid 114 eid 114 etid 114 c omnetpp::cMessage n nuevoArchivo sm 2 st 149740 am 2 at 149770 pe 65
+
+E # 66 t 149770 m 3 ce 65 msg 103
+
+E # 67 t 149770 m 2 ce 65 msg 114
+BS id 104 tid 104 eid 104 etid 104 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 48
+SH sm 2 sg 1 td 30 rd 30
+ES id 104 tid 104 eid 104 etid 104 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 149770 am 3 ag 0 at 149800 pe 67
+CL id 115 tid 104 eid 115 etid 104 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 104
+CM id 115 tid 115 eid 115 etid 115 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 115 tid 115 eid 115 etid 115 c omnetpp::cMessage n nuevoArchivo sm 2 st 149770 am 2 at 149800 pe 67
+ES id 115 tid 115 eid 115 etid 115 c omnetpp::cMessage n nuevoArchivo sm 2 st 149770 am 2 at 149800 pe 67
+
+E # 68 t 149800 m 3 ce 67 msg 104
+
+E # 69 t 149800 m 2 ce 67 msg 115
+
+E # 70 t 160810 m 2 ce 25 msg 73
+
+E # 71 t 161780 m 2 ce 0 msg 6
+CM id 116 tid 116 eid 116 etid 116 c omnetpp::cMessage n "" pe -1
+CM id 117 tid 117 eid 117 etid 117 c omnetpp::cMessage n "" pe -1
+CM id 118 tid 118 eid 118 etid 118 c omnetpp::cMessage n "" pe -1
+CM id 119 tid 119 eid 119 etid 119 c omnetpp::cMessage n "" pe -1
+CM id 120 tid 120 eid 120 etid 120 c omnetpp::cMessage n "" pe -1
+CM id 121 tid 121 eid 121 etid 121 c omnetpp::cMessage n "" pe -1
+CM id 122 tid 122 eid 122 etid 122 c omnetpp::cMessage n "" pe -1
+CM id 123 tid 123 eid 123 etid 123 c omnetpp::cMessage n "" pe -1
+CM id 124 tid 124 eid 124 etid 124 c omnetpp::cMessage n "" pe -1
+CM id 125 tid 125 eid 125 etid 125 c omnetpp::cMessage n "" pe -1
+CM id 126 tid 126 eid 126 etid 126 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 126 tid 126 eid 126 etid 126 c omnetpp::cMessage n nuevoArchivo sm 2 st 161780 am 2 at 324260 pe 71
+ES id 126 tid 126 eid 126 etid 126 c omnetpp::cMessage n nuevoArchivo sm 2 st 161780 am 2 at 324260 pe 71
+
+E # 72 t 167520 m 2 ce 0 msg 7
+CM id 127 tid 127 eid 127 etid 127 c omnetpp::cMessage n "" pe -1
+CM id 128 tid 128 eid 128 etid 128 c omnetpp::cMessage n "" pe -1
+CM id 129 tid 129 eid 129 etid 129 c omnetpp::cMessage n "" pe -1
+CM id 130 tid 130 eid 130 etid 130 c omnetpp::cMessage n "" pe -1
+CM id 131 tid 131 eid 131 etid 131 c omnetpp::cMessage n "" pe -1
+CM id 132 tid 132 eid 132 etid 132 c omnetpp::cMessage n "" pe -1
+CM id 133 tid 133 eid 133 etid 133 c omnetpp::cMessage n "" pe -1
+CM id 134 tid 134 eid 134 etid 134 c omnetpp::cMessage n "" pe -1
+CM id 135 tid 135 eid 135 etid 135 c omnetpp::cMessage n "" pe -1
+CM id 136 tid 136 eid 136 etid 136 c omnetpp::cMessage n "" pe -1
+CM id 137 tid 137 eid 137 etid 137 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 137 tid 137 eid 137 etid 137 c omnetpp::cMessage n nuevoArchivo sm 2 st 167520 am 2 at 335780 pe 72
+ES id 137 tid 137 eid 137 etid 137 c omnetpp::cMessage n nuevoArchivo sm 2 st 167520 am 2 at 335780 pe 72
+
+E # 73 t 210240 m 2 ce 0 msg 8
+CM id 138 tid 138 eid 138 etid 138 c omnetpp::cMessage n "" pe -1
+CM id 139 tid 139 eid 139 etid 139 c omnetpp::cMessage n "" pe -1
+CM id 140 tid 140 eid 140 etid 140 c omnetpp::cMessage n "" pe -1
+CM id 141 tid 141 eid 141 etid 141 c omnetpp::cMessage n "" pe -1
+CM id 142 tid 142 eid 142 etid 142 c omnetpp::cMessage n "" pe -1
+CM id 143 tid 143 eid 143 etid 143 c omnetpp::cMessage n "" pe -1
+CM id 144 tid 144 eid 144 etid 144 c omnetpp::cMessage n "" pe -1
+CM id 145 tid 145 eid 145 etid 145 c omnetpp::cMessage n "" pe -1
+CM id 146 tid 146 eid 146 etid 146 c omnetpp::cMessage n "" pe -1
+CM id 147 tid 147 eid 147 etid 147 c omnetpp::cMessage n "" pe -1
+CM id 148 tid 148 eid 148 etid 148 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 148 tid 148 eid 148 etid 148 c omnetpp::cMessage n nuevoArchivo sm 2 st 210240 am 2 at 421270 pe 73
+ES id 148 tid 148 eid 148 etid 148 c omnetpp::cMessage n nuevoArchivo sm 2 st 210240 am 2 at 421270 pe 73
+
+E # 74 t 246300 m 2 ce 47 msg 94
+BS id 138 tid 138 eid 138 etid 138 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 138 tid 138 eid 138 etid 138 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 246300 am 3 ag 0 at 246330 pe 74
+CL id 149 tid 138 eid 149 etid 138 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 138
+CM id 149 tid 149 eid 149 etid 149 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 149 tid 149 eid 149 etid 149 c omnetpp::cMessage n nuevoArchivo sm 2 st 246300 am 2 at 246330 pe 74
+ES id 149 tid 149 eid 149 etid 149 c omnetpp::cMessage n nuevoArchivo sm 2 st 246300 am 2 at 246330 pe 74
+
+E # 75 t 246330 m 3 ce 74 msg 138
+
+E # 76 t 246330 m 2 ce 74 msg 149
+BS id 139 tid 139 eid 139 etid 139 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 139 tid 139 eid 139 etid 139 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 246330 am 3 ag 0 at 246360 pe 76
+CL id 150 tid 139 eid 150 etid 139 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 139
+CM id 150 tid 150 eid 150 etid 150 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 150 tid 150 eid 150 etid 150 c omnetpp::cMessage n nuevoArchivo sm 2 st 246330 am 2 at 246360 pe 76
+ES id 150 tid 150 eid 150 etid 150 c omnetpp::cMessage n nuevoArchivo sm 2 st 246330 am 2 at 246360 pe 76
+
+E # 77 t 246360 m 3 ce 76 msg 139
+
+E # 78 t 246360 m 2 ce 76 msg 150
+BS id 140 tid 140 eid 140 etid 140 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 73
+SH sm 2 sg 1 td 200 rd 200
+ES id 140 tid 140 eid 140 etid 140 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 246360 am 3 ag 0 at 246560 pe 78
+CL id 151 tid 140 eid 151 etid 140 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 140
+CM id 151 tid 151 eid 151 etid 151 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 151 tid 151 eid 151 etid 151 c omnetpp::cMessage n nuevoArchivo sm 2 st 246360 am 2 at 246560 pe 78
+ES id 151 tid 151 eid 151 etid 151 c omnetpp::cMessage n nuevoArchivo sm 2 st 246360 am 2 at 246560 pe 78
+
+E # 79 t 246560 m 3 ce 78 msg 140
+
+E # 80 t 246560 m 2 ce 78 msg 151
+BS id 141 tid 141 eid 141 etid 141 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 141 tid 141 eid 141 etid 141 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 246560 am 3 ag 0 at 246590 pe 80
+CL id 152 tid 141 eid 152 etid 141 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 141
+CM id 152 tid 152 eid 152 etid 152 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 152 tid 152 eid 152 etid 152 c omnetpp::cMessage n nuevoArchivo sm 2 st 246560 am 2 at 246590 pe 80
+ES id 152 tid 152 eid 152 etid 152 c omnetpp::cMessage n nuevoArchivo sm 2 st 246560 am 2 at 246590 pe 80
+
+E # 81 t 246590 m 3 ce 80 msg 141
+
+E # 82 t 246590 m 2 ce 80 msg 152
+BS id 142 tid 142 eid 142 etid 142 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 142 tid 142 eid 142 etid 142 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 246590 am 3 ag 0 at 246620 pe 82
+CL id 153 tid 142 eid 153 etid 142 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 142
+CM id 153 tid 153 eid 153 etid 153 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 153 tid 153 eid 153 etid 153 c omnetpp::cMessage n nuevoArchivo sm 2 st 246590 am 2 at 246620 pe 82
+ES id 153 tid 153 eid 153 etid 153 c omnetpp::cMessage n nuevoArchivo sm 2 st 246590 am 2 at 246620 pe 82
+
+E # 83 t 246620 m 3 ce 82 msg 142
+
+E # 84 t 246620 m 2 ce 82 msg 153
+BS id 143 tid 143 eid 143 etid 143 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 143 tid 143 eid 143 etid 143 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 246620 am 3 ag 0 at 246650 pe 84
+CL id 154 tid 143 eid 154 etid 143 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 143
+CM id 154 tid 154 eid 154 etid 154 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 154 tid 154 eid 154 etid 154 c omnetpp::cMessage n nuevoArchivo sm 2 st 246620 am 2 at 246650 pe 84
+ES id 154 tid 154 eid 154 etid 154 c omnetpp::cMessage n nuevoArchivo sm 2 st 246620 am 2 at 246650 pe 84
+
+E # 85 t 246650 m 3 ce 84 msg 143
+
+E # 86 t 246650 m 2 ce 84 msg 154
+BS id 144 tid 144 eid 144 etid 144 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 144 tid 144 eid 144 etid 144 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 246650 am 3 ag 0 at 246680 pe 86
+CL id 155 tid 144 eid 155 etid 144 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 144
+CM id 155 tid 155 eid 155 etid 155 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 155 tid 155 eid 155 etid 155 c omnetpp::cMessage n nuevoArchivo sm 2 st 246650 am 2 at 246680 pe 86
+ES id 155 tid 155 eid 155 etid 155 c omnetpp::cMessage n nuevoArchivo sm 2 st 246650 am 2 at 246680 pe 86
+
+E # 87 t 246680 m 3 ce 86 msg 144
+
+E # 88 t 246680 m 2 ce 86 msg 155
+BS id 145 tid 145 eid 145 etid 145 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 145 tid 145 eid 145 etid 145 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 246680 am 3 ag 0 at 246710 pe 88
+CL id 156 tid 145 eid 156 etid 145 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 145
+CM id 156 tid 156 eid 156 etid 156 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 156 tid 156 eid 156 etid 156 c omnetpp::cMessage n nuevoArchivo sm 2 st 246680 am 2 at 246710 pe 88
+ES id 156 tid 156 eid 156 etid 156 c omnetpp::cMessage n nuevoArchivo sm 2 st 246680 am 2 at 246710 pe 88
+
+E # 89 t 246710 m 3 ce 88 msg 145
+
+E # 90 t 246710 m 2 ce 88 msg 156
+BS id 146 tid 146 eid 146 etid 146 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 146 tid 146 eid 146 etid 146 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 246710 am 3 ag 0 at 246740 pe 90
+CL id 157 tid 146 eid 157 etid 146 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 146
+CM id 157 tid 157 eid 157 etid 157 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 157 tid 157 eid 157 etid 157 c omnetpp::cMessage n nuevoArchivo sm 2 st 246710 am 2 at 246740 pe 90
+ES id 157 tid 157 eid 157 etid 157 c omnetpp::cMessage n nuevoArchivo sm 2 st 246710 am 2 at 246740 pe 90
+
+E # 91 t 246740 m 3 ce 90 msg 146
+
+E # 92 t 246740 m 2 ce 90 msg 157
+BS id 147 tid 147 eid 147 etid 147 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 73
+SH sm 2 sg 1 td 30 rd 30
+ES id 147 tid 147 eid 147 etid 147 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 246740 am 3 ag 0 at 246770 pe 92
+CL id 158 tid 147 eid 158 etid 147 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 147
+CM id 158 tid 158 eid 158 etid 158 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 158 tid 158 eid 158 etid 158 c omnetpp::cMessage n nuevoArchivo sm 2 st 246740 am 2 at 246770 pe 92
+ES id 158 tid 158 eid 158 etid 158 c omnetpp::cMessage n nuevoArchivo sm 2 st 246740 am 2 at 246770 pe 92
+
+E # 93 t 246770 m 3 ce 92 msg 147
+
+E # 94 t 246770 m 2 ce 92 msg 158
+
+E # 95 t 249230 m 2 ce 0 msg 9
+CM id 159 tid 159 eid 159 etid 159 c omnetpp::cMessage n "" pe -1
+CM id 160 tid 160 eid 160 etid 160 c omnetpp::cMessage n "" pe -1
+CM id 161 tid 161 eid 161 etid 161 c omnetpp::cMessage n "" pe -1
+CM id 162 tid 162 eid 162 etid 162 c omnetpp::cMessage n "" pe -1
+CM id 163 tid 163 eid 163 etid 163 c omnetpp::cMessage n "" pe -1
+CM id 164 tid 164 eid 164 etid 164 c omnetpp::cMessage n "" pe -1
+CM id 165 tid 165 eid 165 etid 165 c omnetpp::cMessage n "" pe -1
+CM id 166 tid 166 eid 166 etid 166 c omnetpp::cMessage n "" pe -1
+CM id 167 tid 167 eid 167 etid 167 c omnetpp::cMessage n "" pe -1
+CM id 168 tid 168 eid 168 etid 168 c omnetpp::cMessage n "" pe -1
+CM id 169 tid 169 eid 169 etid 169 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 169 tid 169 eid 169 etid 169 c omnetpp::cMessage n nuevoArchivo sm 2 st 249230 am 2 at 499210 pe 95
+ES id 169 tid 169 eid 169 etid 169 c omnetpp::cMessage n nuevoArchivo sm 2 st 249230 am 2 at 499210 pe 95
+
+E # 96 t 255040 m 2 ce 0 msg 10
+CM id 170 tid 170 eid 170 etid 170 c omnetpp::cMessage n "" pe -1
+CM id 171 tid 171 eid 171 etid 171 c omnetpp::cMessage n "" pe -1
+CM id 172 tid 172 eid 172 etid 172 c omnetpp::cMessage n "" pe -1
+CM id 173 tid 173 eid 173 etid 173 c omnetpp::cMessage n "" pe -1
+CM id 174 tid 174 eid 174 etid 174 c omnetpp::cMessage n "" pe -1
+CM id 175 tid 175 eid 175 etid 175 c omnetpp::cMessage n "" pe -1
+CM id 176 tid 176 eid 176 etid 176 c omnetpp::cMessage n "" pe -1
+CM id 177 tid 177 eid 177 etid 177 c omnetpp::cMessage n "" pe -1
+CM id 178 tid 178 eid 178 etid 178 c omnetpp::cMessage n "" pe -1
+CM id 179 tid 179 eid 179 etid 179 c omnetpp::cMessage n "" pe -1
+CM id 180 tid 180 eid 180 etid 180 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 180 tid 180 eid 180 etid 180 c omnetpp::cMessage n nuevoArchivo sm 2 st 255040 am 2 at 510760 pe 96
+ES id 180 tid 180 eid 180 etid 180 c omnetpp::cMessage n nuevoArchivo sm 2 st 255040 am 2 at 510760 pe 96
+
+E # 97 t 257790 m 2 ce 48 msg 105
+BS id 170 tid 170 eid 170 etid 170 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 170 tid 170 eid 170 etid 170 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 257790 am 3 ag 0 at 257820 pe 97
+CL id 181 tid 170 eid 181 etid 170 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 170
+CM id 181 tid 181 eid 181 etid 181 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 181 tid 181 eid 181 etid 181 c omnetpp::cMessage n nuevoArchivo sm 2 st 257790 am 2 at 257820 pe 97
+ES id 181 tid 181 eid 181 etid 181 c omnetpp::cMessage n nuevoArchivo sm 2 st 257790 am 2 at 257820 pe 97
+
+E # 98 t 257820 m 3 ce 97 msg 170
+
+E # 99 t 257820 m 2 ce 97 msg 181
+BS id 171 tid 171 eid 171 etid 171 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 171 tid 171 eid 171 etid 171 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 257820 am 3 ag 0 at 257850 pe 99
+CL id 182 tid 171 eid 182 etid 171 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 171
+CM id 182 tid 182 eid 182 etid 182 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 182 tid 182 eid 182 etid 182 c omnetpp::cMessage n nuevoArchivo sm 2 st 257820 am 2 at 257850 pe 99
+ES id 182 tid 182 eid 182 etid 182 c omnetpp::cMessage n nuevoArchivo sm 2 st 257820 am 2 at 257850 pe 99
+
+E # 100 t 257850 m 3 ce 99 msg 171
+
+E # 101 t 257850 m 2 ce 99 msg 182
+BS id 172 tid 172 eid 172 etid 172 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 96
+SH sm 2 sg 1 td 200 rd 200
+ES id 172 tid 172 eid 172 etid 172 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 257850 am 3 ag 0 at 258050 pe 101
+CL id 183 tid 172 eid 183 etid 172 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 172
+CM id 183 tid 183 eid 183 etid 183 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 183 tid 183 eid 183 etid 183 c omnetpp::cMessage n nuevoArchivo sm 2 st 257850 am 2 at 258050 pe 101
+ES id 183 tid 183 eid 183 etid 183 c omnetpp::cMessage n nuevoArchivo sm 2 st 257850 am 2 at 258050 pe 101
+
+E # 102 t 258050 m 3 ce 101 msg 172
+
+E # 103 t 258050 m 2 ce 101 msg 183
+BS id 173 tid 173 eid 173 etid 173 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 173 tid 173 eid 173 etid 173 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 258050 am 3 ag 0 at 258080 pe 103
+CL id 184 tid 173 eid 184 etid 173 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 173
+CM id 184 tid 184 eid 184 etid 184 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 184 tid 184 eid 184 etid 184 c omnetpp::cMessage n nuevoArchivo sm 2 st 258050 am 2 at 258080 pe 103
+ES id 184 tid 184 eid 184 etid 184 c omnetpp::cMessage n nuevoArchivo sm 2 st 258050 am 2 at 258080 pe 103
+
+E # 104 t 258080 m 3 ce 103 msg 173
+
+E # 105 t 258080 m 2 ce 103 msg 184
+BS id 174 tid 174 eid 174 etid 174 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 174 tid 174 eid 174 etid 174 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 258080 am 3 ag 0 at 258110 pe 105
+CL id 185 tid 174 eid 185 etid 174 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 174
+CM id 185 tid 185 eid 185 etid 185 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 185 tid 185 eid 185 etid 185 c omnetpp::cMessage n nuevoArchivo sm 2 st 258080 am 2 at 258110 pe 105
+ES id 185 tid 185 eid 185 etid 185 c omnetpp::cMessage n nuevoArchivo sm 2 st 258080 am 2 at 258110 pe 105
+
+E # 106 t 258110 m 3 ce 105 msg 174
+
+E # 107 t 258110 m 2 ce 105 msg 185
+BS id 175 tid 175 eid 175 etid 175 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 175 tid 175 eid 175 etid 175 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 258110 am 3 ag 0 at 258140 pe 107
+CL id 186 tid 175 eid 186 etid 175 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 175
+CM id 186 tid 186 eid 186 etid 186 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 186 tid 186 eid 186 etid 186 c omnetpp::cMessage n nuevoArchivo sm 2 st 258110 am 2 at 258140 pe 107
+ES id 186 tid 186 eid 186 etid 186 c omnetpp::cMessage n nuevoArchivo sm 2 st 258110 am 2 at 258140 pe 107
+
+E # 108 t 258140 m 3 ce 107 msg 175
+
+E # 109 t 258140 m 2 ce 107 msg 186
+BS id 176 tid 176 eid 176 etid 176 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 176 tid 176 eid 176 etid 176 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 258140 am 3 ag 0 at 258170 pe 109
+CL id 187 tid 176 eid 187 etid 176 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 176
+CM id 187 tid 187 eid 187 etid 187 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 187 tid 187 eid 187 etid 187 c omnetpp::cMessage n nuevoArchivo sm 2 st 258140 am 2 at 258170 pe 109
+ES id 187 tid 187 eid 187 etid 187 c omnetpp::cMessage n nuevoArchivo sm 2 st 258140 am 2 at 258170 pe 109
+
+E # 110 t 258170 m 3 ce 109 msg 176
+
+E # 111 t 258170 m 2 ce 109 msg 187
+BS id 177 tid 177 eid 177 etid 177 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 177 tid 177 eid 177 etid 177 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 258170 am 3 ag 0 at 258200 pe 111
+CL id 188 tid 177 eid 188 etid 177 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 177
+CM id 188 tid 188 eid 188 etid 188 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 188 tid 188 eid 188 etid 188 c omnetpp::cMessage n nuevoArchivo sm 2 st 258170 am 2 at 258200 pe 111
+ES id 188 tid 188 eid 188 etid 188 c omnetpp::cMessage n nuevoArchivo sm 2 st 258170 am 2 at 258200 pe 111
+
+E # 112 t 258200 m 3 ce 111 msg 177
+
+E # 113 t 258200 m 2 ce 111 msg 188
+BS id 178 tid 178 eid 178 etid 178 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 178 tid 178 eid 178 etid 178 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 258200 am 3 ag 0 at 258230 pe 113
+CL id 189 tid 178 eid 189 etid 178 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 178
+CM id 189 tid 189 eid 189 etid 189 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 189 tid 189 eid 189 etid 189 c omnetpp::cMessage n nuevoArchivo sm 2 st 258200 am 2 at 258230 pe 113
+ES id 189 tid 189 eid 189 etid 189 c omnetpp::cMessage n nuevoArchivo sm 2 st 258200 am 2 at 258230 pe 113
+
+E # 114 t 258230 m 3 ce 113 msg 178
+
+E # 115 t 258230 m 2 ce 113 msg 189
+BS id 179 tid 179 eid 179 etid 179 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 96
+SH sm 2 sg 1 td 30 rd 30
+ES id 179 tid 179 eid 179 etid 179 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 258230 am 3 ag 0 at 258260 pe 115
+CL id 190 tid 179 eid 190 etid 179 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 179
+CM id 190 tid 190 eid 190 etid 190 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 190 tid 190 eid 190 etid 190 c omnetpp::cMessage n nuevoArchivo sm 2 st 258230 am 2 at 258260 pe 115
+ES id 190 tid 190 eid 190 etid 190 c omnetpp::cMessage n nuevoArchivo sm 2 st 258230 am 2 at 258260 pe 115
+
+E # 116 t 258260 m 3 ce 115 msg 179
+
+E # 117 t 258260 m 2 ce 115 msg 190
+
+E # 118 t 297720 m 2 ce 0 msg 11
+CM id 191 tid 191 eid 191 etid 191 c omnetpp::cMessage n "" pe -1
+CM id 192 tid 192 eid 192 etid 192 c omnetpp::cMessage n "" pe -1
+CM id 193 tid 193 eid 193 etid 193 c omnetpp::cMessage n "" pe -1
+CM id 194 tid 194 eid 194 etid 194 c omnetpp::cMessage n "" pe -1
+CM id 195 tid 195 eid 195 etid 195 c omnetpp::cMessage n "" pe -1
+CM id 196 tid 196 eid 196 etid 196 c omnetpp::cMessage n "" pe -1
+CM id 197 tid 197 eid 197 etid 197 c omnetpp::cMessage n "" pe -1
+CM id 198 tid 198 eid 198 etid 198 c omnetpp::cMessage n "" pe -1
+CM id 199 tid 199 eid 199 etid 199 c omnetpp::cMessage n "" pe -1
+CM id 200 tid 200 eid 200 etid 200 c omnetpp::cMessage n "" pe -1
+CM id 201 tid 201 eid 201 etid 201 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 201 tid 201 eid 201 etid 201 c omnetpp::cMessage n nuevoArchivo sm 2 st 297720 am 2 at 596230 pe 118
+ES id 201 tid 201 eid 201 etid 201 c omnetpp::cMessage n nuevoArchivo sm 2 st 297720 am 2 at 596230 pe 118
+
+E # 119 t 324260 m 2 ce 71 msg 126
+BS id 191 tid 191 eid 191 etid 191 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 191 tid 191 eid 191 etid 191 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 324260 am 3 ag 0 at 324290 pe 119
+CL id 202 tid 191 eid 202 etid 191 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 191
+CM id 202 tid 202 eid 202 etid 202 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 202 tid 202 eid 202 etid 202 c omnetpp::cMessage n nuevoArchivo sm 2 st 324260 am 2 at 324290 pe 119
+ES id 202 tid 202 eid 202 etid 202 c omnetpp::cMessage n nuevoArchivo sm 2 st 324260 am 2 at 324290 pe 119
+
+E # 120 t 324290 m 3 ce 119 msg 191
+
+E # 121 t 324290 m 2 ce 119 msg 202
+BS id 192 tid 192 eid 192 etid 192 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 192 tid 192 eid 192 etid 192 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 324290 am 3 ag 0 at 324320 pe 121
+CL id 203 tid 192 eid 203 etid 192 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 192
+CM id 203 tid 203 eid 203 etid 203 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 203 tid 203 eid 203 etid 203 c omnetpp::cMessage n nuevoArchivo sm 2 st 324290 am 2 at 324320 pe 121
+ES id 203 tid 203 eid 203 etid 203 c omnetpp::cMessage n nuevoArchivo sm 2 st 324290 am 2 at 324320 pe 121
+
+E # 122 t 324320 m 3 ce 121 msg 192
+
+E # 123 t 324320 m 2 ce 121 msg 203
+BS id 193 tid 193 eid 193 etid 193 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 118
+SH sm 2 sg 1 td 200 rd 200
+ES id 193 tid 193 eid 193 etid 193 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 324320 am 3 ag 0 at 324520 pe 123
+CL id 204 tid 193 eid 204 etid 193 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 193
+CM id 204 tid 204 eid 204 etid 204 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 204 tid 204 eid 204 etid 204 c omnetpp::cMessage n nuevoArchivo sm 2 st 324320 am 2 at 324520 pe 123
+ES id 204 tid 204 eid 204 etid 204 c omnetpp::cMessage n nuevoArchivo sm 2 st 324320 am 2 at 324520 pe 123
+
+E # 124 t 324520 m 3 ce 123 msg 193
+
+E # 125 t 324520 m 2 ce 123 msg 204
+BS id 194 tid 194 eid 194 etid 194 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 194 tid 194 eid 194 etid 194 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 324520 am 3 ag 0 at 324550 pe 125
+CL id 205 tid 194 eid 205 etid 194 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 194
+CM id 205 tid 205 eid 205 etid 205 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 205 tid 205 eid 205 etid 205 c omnetpp::cMessage n nuevoArchivo sm 2 st 324520 am 2 at 324550 pe 125
+ES id 205 tid 205 eid 205 etid 205 c omnetpp::cMessage n nuevoArchivo sm 2 st 324520 am 2 at 324550 pe 125
+
+E # 126 t 324550 m 3 ce 125 msg 194
+
+E # 127 t 324550 m 2 ce 125 msg 205
+BS id 195 tid 195 eid 195 etid 195 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 195 tid 195 eid 195 etid 195 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 324550 am 3 ag 0 at 324580 pe 127
+CL id 206 tid 195 eid 206 etid 195 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 195
+CM id 206 tid 206 eid 206 etid 206 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 206 tid 206 eid 206 etid 206 c omnetpp::cMessage n nuevoArchivo sm 2 st 324550 am 2 at 324580 pe 127
+ES id 206 tid 206 eid 206 etid 206 c omnetpp::cMessage n nuevoArchivo sm 2 st 324550 am 2 at 324580 pe 127
+
+E # 128 t 324580 m 3 ce 127 msg 195
+
+E # 129 t 324580 m 2 ce 127 msg 206
+BS id 196 tid 196 eid 196 etid 196 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 196 tid 196 eid 196 etid 196 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 324580 am 3 ag 0 at 324610 pe 129
+CL id 207 tid 196 eid 207 etid 196 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 196
+CM id 207 tid 207 eid 207 etid 207 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 207 tid 207 eid 207 etid 207 c omnetpp::cMessage n nuevoArchivo sm 2 st 324580 am 2 at 324610 pe 129
+ES id 207 tid 207 eid 207 etid 207 c omnetpp::cMessage n nuevoArchivo sm 2 st 324580 am 2 at 324610 pe 129
+
+E # 130 t 324610 m 3 ce 129 msg 196
+
+E # 131 t 324610 m 2 ce 129 msg 207
+BS id 197 tid 197 eid 197 etid 197 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 197 tid 197 eid 197 etid 197 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 324610 am 3 ag 0 at 324640 pe 131
+CL id 208 tid 197 eid 208 etid 197 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 197
+CM id 208 tid 208 eid 208 etid 208 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 208 tid 208 eid 208 etid 208 c omnetpp::cMessage n nuevoArchivo sm 2 st 324610 am 2 at 324640 pe 131
+ES id 208 tid 208 eid 208 etid 208 c omnetpp::cMessage n nuevoArchivo sm 2 st 324610 am 2 at 324640 pe 131
+
+E # 132 t 324640 m 3 ce 131 msg 197
+
+E # 133 t 324640 m 2 ce 131 msg 208
+BS id 198 tid 198 eid 198 etid 198 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 198 tid 198 eid 198 etid 198 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 324640 am 3 ag 0 at 324670 pe 133
+CL id 209 tid 198 eid 209 etid 198 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 198
+CM id 209 tid 209 eid 209 etid 209 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 209 tid 209 eid 209 etid 209 c omnetpp::cMessage n nuevoArchivo sm 2 st 324640 am 2 at 324670 pe 133
+ES id 209 tid 209 eid 209 etid 209 c omnetpp::cMessage n nuevoArchivo sm 2 st 324640 am 2 at 324670 pe 133
+
+E # 134 t 324670 m 3 ce 133 msg 198
+
+E # 135 t 324670 m 2 ce 133 msg 209
+BS id 199 tid 199 eid 199 etid 199 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 199 tid 199 eid 199 etid 199 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 324670 am 3 ag 0 at 324700 pe 135
+CL id 210 tid 199 eid 210 etid 199 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 199
+CM id 210 tid 210 eid 210 etid 210 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 210 tid 210 eid 210 etid 210 c omnetpp::cMessage n nuevoArchivo sm 2 st 324670 am 2 at 324700 pe 135
+ES id 210 tid 210 eid 210 etid 210 c omnetpp::cMessage n nuevoArchivo sm 2 st 324670 am 2 at 324700 pe 135
+
+E # 136 t 324700 m 3 ce 135 msg 199
+
+E # 137 t 324700 m 2 ce 135 msg 210
+BS id 200 tid 200 eid 200 etid 200 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 118
+SH sm 2 sg 1 td 30 rd 30
+ES id 200 tid 200 eid 200 etid 200 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 324700 am 3 ag 0 at 324730 pe 137
+CL id 211 tid 200 eid 211 etid 200 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 200
+CM id 211 tid 211 eid 211 etid 211 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 211 tid 211 eid 211 etid 211 c omnetpp::cMessage n nuevoArchivo sm 2 st 324700 am 2 at 324730 pe 137
+ES id 211 tid 211 eid 211 etid 211 c omnetpp::cMessage n nuevoArchivo sm 2 st 324700 am 2 at 324730 pe 137
+
+E # 138 t 324730 m 3 ce 137 msg 200
+
+E # 139 t 324730 m 2 ce 137 msg 211
+
+E # 140 t 335780 m 2 ce 72 msg 137
+
+E # 141 t 336690 m 2 ce 0 msg 12
+CM id 212 tid 212 eid 212 etid 212 c omnetpp::cMessage n "" pe -1
+CM id 213 tid 213 eid 213 etid 213 c omnetpp::cMessage n "" pe -1
+CM id 214 tid 214 eid 214 etid 214 c omnetpp::cMessage n "" pe -1
+CM id 215 tid 215 eid 215 etid 215 c omnetpp::cMessage n "" pe -1
+CM id 216 tid 216 eid 216 etid 216 c omnetpp::cMessage n "" pe -1
+CM id 217 tid 217 eid 217 etid 217 c omnetpp::cMessage n "" pe -1
+CM id 218 tid 218 eid 218 etid 218 c omnetpp::cMessage n "" pe -1
+CM id 219 tid 219 eid 219 etid 219 c omnetpp::cMessage n "" pe -1
+CM id 220 tid 220 eid 220 etid 220 c omnetpp::cMessage n "" pe -1
+CM id 221 tid 221 eid 221 etid 221 c omnetpp::cMessage n "" pe -1
+CM id 222 tid 222 eid 222 etid 222 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 222 tid 222 eid 222 etid 222 c omnetpp::cMessage n nuevoArchivo sm 2 st 336690 am 2 at 674160 pe 141
+ES id 222 tid 222 eid 222 etid 222 c omnetpp::cMessage n nuevoArchivo sm 2 st 336690 am 2 at 674160 pe 141
+
+E # 142 t 379490 m 2 ce 0 msg 13
+CM id 223 tid 223 eid 223 etid 223 c omnetpp::cMessage n "" pe -1
+CM id 224 tid 224 eid 224 etid 224 c omnetpp::cMessage n "" pe -1
+CM id 225 tid 225 eid 225 etid 225 c omnetpp::cMessage n "" pe -1
+CM id 226 tid 226 eid 226 etid 226 c omnetpp::cMessage n "" pe -1
+CM id 227 tid 227 eid 227 etid 227 c omnetpp::cMessage n "" pe -1
+CM id 228 tid 228 eid 228 etid 228 c omnetpp::cMessage n "" pe -1
+CM id 229 tid 229 eid 229 etid 229 c omnetpp::cMessage n "" pe -1
+CM id 230 tid 230 eid 230 etid 230 c omnetpp::cMessage n "" pe -1
+CM id 231 tid 231 eid 231 etid 231 c omnetpp::cMessage n "" pe -1
+CM id 232 tid 232 eid 232 etid 232 c omnetpp::cMessage n "" pe -1
+CM id 233 tid 233 eid 233 etid 233 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 233 tid 233 eid 233 etid 233 c omnetpp::cMessage n nuevoArchivo sm 2 st 379490 am 2 at 759640 pe 142
+ES id 233 tid 233 eid 233 etid 233 c omnetpp::cMessage n nuevoArchivo sm 2 st 379490 am 2 at 759640 pe 142
+
+E # 143 t 385210 m 2 ce 0 msg 14
+CM id 234 tid 234 eid 234 etid 234 c omnetpp::cMessage n "" pe -1
+CM id 235 tid 235 eid 235 etid 235 c omnetpp::cMessage n "" pe -1
+CM id 236 tid 236 eid 236 etid 236 c omnetpp::cMessage n "" pe -1
+CM id 237 tid 237 eid 237 etid 237 c omnetpp::cMessage n "" pe -1
+CM id 238 tid 238 eid 238 etid 238 c omnetpp::cMessage n "" pe -1
+CM id 239 tid 239 eid 239 etid 239 c omnetpp::cMessage n "" pe -1
+CM id 240 tid 240 eid 240 etid 240 c omnetpp::cMessage n "" pe -1
+CM id 241 tid 241 eid 241 etid 241 c omnetpp::cMessage n "" pe -1
+CM id 242 tid 242 eid 242 etid 242 c omnetpp::cMessage n "" pe -1
+CM id 243 tid 243 eid 243 etid 243 c omnetpp::cMessage n "" pe -1
+CM id 244 tid 244 eid 244 etid 244 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 244 tid 244 eid 244 etid 244 c omnetpp::cMessage n nuevoArchivo sm 2 st 385210 am 2 at 771180 pe 143
+ES id 244 tid 244 eid 244 etid 244 c omnetpp::cMessage n nuevoArchivo sm 2 st 385210 am 2 at 771180 pe 143
+
+E # 144 t 421270 m 2 ce 73 msg 148
+BS id 234 tid 234 eid 234 etid 234 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 234 tid 234 eid 234 etid 234 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 421270 am 3 ag 0 at 421300 pe 144
+CL id 245 tid 234 eid 245 etid 234 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 234
+CM id 245 tid 245 eid 245 etid 245 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 245 tid 245 eid 245 etid 245 c omnetpp::cMessage n nuevoArchivo sm 2 st 421270 am 2 at 421300 pe 144
+ES id 245 tid 245 eid 245 etid 245 c omnetpp::cMessage n nuevoArchivo sm 2 st 421270 am 2 at 421300 pe 144
+
+E # 145 t 421300 m 3 ce 144 msg 234
+
+E # 146 t 421300 m 2 ce 144 msg 245
+BS id 235 tid 235 eid 235 etid 235 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 235 tid 235 eid 235 etid 235 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 421300 am 3 ag 0 at 421330 pe 146
+CL id 246 tid 235 eid 246 etid 235 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 235
+CM id 246 tid 246 eid 246 etid 246 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 246 tid 246 eid 246 etid 246 c omnetpp::cMessage n nuevoArchivo sm 2 st 421300 am 2 at 421330 pe 146
+ES id 246 tid 246 eid 246 etid 246 c omnetpp::cMessage n nuevoArchivo sm 2 st 421300 am 2 at 421330 pe 146
+
+E # 147 t 421330 m 3 ce 146 msg 235
+
+E # 148 t 421330 m 2 ce 146 msg 246
+BS id 236 tid 236 eid 236 etid 236 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 143
+SH sm 2 sg 1 td 200 rd 200
+ES id 236 tid 236 eid 236 etid 236 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 421330 am 3 ag 0 at 421530 pe 148
+CL id 247 tid 236 eid 247 etid 236 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 236
+CM id 247 tid 247 eid 247 etid 247 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 247 tid 247 eid 247 etid 247 c omnetpp::cMessage n nuevoArchivo sm 2 st 421330 am 2 at 421530 pe 148
+ES id 247 tid 247 eid 247 etid 247 c omnetpp::cMessage n nuevoArchivo sm 2 st 421330 am 2 at 421530 pe 148
+
+E # 149 t 421530 m 3 ce 148 msg 236
+
+E # 150 t 421530 m 2 ce 148 msg 247
+BS id 237 tid 237 eid 237 etid 237 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 237 tid 237 eid 237 etid 237 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 421530 am 3 ag 0 at 421560 pe 150
+CL id 248 tid 237 eid 248 etid 237 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 237
+CM id 248 tid 248 eid 248 etid 248 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 248 tid 248 eid 248 etid 248 c omnetpp::cMessage n nuevoArchivo sm 2 st 421530 am 2 at 421560 pe 150
+ES id 248 tid 248 eid 248 etid 248 c omnetpp::cMessage n nuevoArchivo sm 2 st 421530 am 2 at 421560 pe 150
+
+E # 151 t 421560 m 3 ce 150 msg 237
+
+E # 152 t 421560 m 2 ce 150 msg 248
+BS id 238 tid 238 eid 238 etid 238 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 238 tid 238 eid 238 etid 238 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 421560 am 3 ag 0 at 421590 pe 152
+CL id 249 tid 238 eid 249 etid 238 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 238
+CM id 249 tid 249 eid 249 etid 249 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 249 tid 249 eid 249 etid 249 c omnetpp::cMessage n nuevoArchivo sm 2 st 421560 am 2 at 421590 pe 152
+ES id 249 tid 249 eid 249 etid 249 c omnetpp::cMessage n nuevoArchivo sm 2 st 421560 am 2 at 421590 pe 152
+
+E # 153 t 421590 m 3 ce 152 msg 238
+
+E # 154 t 421590 m 2 ce 152 msg 249
+BS id 239 tid 239 eid 239 etid 239 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 239 tid 239 eid 239 etid 239 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 421590 am 3 ag 0 at 421620 pe 154
+CL id 250 tid 239 eid 250 etid 239 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 239
+CM id 250 tid 250 eid 250 etid 250 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 250 tid 250 eid 250 etid 250 c omnetpp::cMessage n nuevoArchivo sm 2 st 421590 am 2 at 421620 pe 154
+ES id 250 tid 250 eid 250 etid 250 c omnetpp::cMessage n nuevoArchivo sm 2 st 421590 am 2 at 421620 pe 154
+
+E # 155 t 421620 m 3 ce 154 msg 239
+
+E # 156 t 421620 m 2 ce 154 msg 250
+BS id 240 tid 240 eid 240 etid 240 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 240 tid 240 eid 240 etid 240 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 421620 am 3 ag 0 at 421650 pe 156
+CL id 251 tid 240 eid 251 etid 240 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 240
+CM id 251 tid 251 eid 251 etid 251 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 251 tid 251 eid 251 etid 251 c omnetpp::cMessage n nuevoArchivo sm 2 st 421620 am 2 at 421650 pe 156
+ES id 251 tid 251 eid 251 etid 251 c omnetpp::cMessage n nuevoArchivo sm 2 st 421620 am 2 at 421650 pe 156
+
+E # 157 t 421650 m 3 ce 156 msg 240
+
+E # 158 t 421650 m 2 ce 156 msg 251
+BS id 241 tid 241 eid 241 etid 241 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 241 tid 241 eid 241 etid 241 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 421650 am 3 ag 0 at 421680 pe 158
+CL id 252 tid 241 eid 252 etid 241 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 241
+CM id 252 tid 252 eid 252 etid 252 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 252 tid 252 eid 252 etid 252 c omnetpp::cMessage n nuevoArchivo sm 2 st 421650 am 2 at 421680 pe 158
+ES id 252 tid 252 eid 252 etid 252 c omnetpp::cMessage n nuevoArchivo sm 2 st 421650 am 2 at 421680 pe 158
+
+E # 159 t 421680 m 3 ce 158 msg 241
+
+E # 160 t 421680 m 2 ce 158 msg 252
+BS id 242 tid 242 eid 242 etid 242 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 242 tid 242 eid 242 etid 242 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 421680 am 3 ag 0 at 421710 pe 160
+CL id 253 tid 242 eid 253 etid 242 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 242
+CM id 253 tid 253 eid 253 etid 253 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 253 tid 253 eid 253 etid 253 c omnetpp::cMessage n nuevoArchivo sm 2 st 421680 am 2 at 421710 pe 160
+ES id 253 tid 253 eid 253 etid 253 c omnetpp::cMessage n nuevoArchivo sm 2 st 421680 am 2 at 421710 pe 160
+
+E # 161 t 421710 m 3 ce 160 msg 242
+
+E # 162 t 421710 m 2 ce 160 msg 253
+BS id 243 tid 243 eid 243 etid 243 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 143
+SH sm 2 sg 1 td 30 rd 30
+ES id 243 tid 243 eid 243 etid 243 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 421710 am 3 ag 0 at 421740 pe 162
+CL id 254 tid 243 eid 254 etid 243 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 243
+CM id 254 tid 254 eid 254 etid 254 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 254 tid 254 eid 254 etid 254 c omnetpp::cMessage n nuevoArchivo sm 2 st 421710 am 2 at 421740 pe 162
+ES id 254 tid 254 eid 254 etid 254 c omnetpp::cMessage n nuevoArchivo sm 2 st 421710 am 2 at 421740 pe 162
+
+E # 163 t 421740 m 3 ce 162 msg 243
+
+E # 164 t 421740 m 2 ce 162 msg 254
+
+E # 165 t 424170 m 2 ce 0 msg 15
+CM id 255 tid 255 eid 255 etid 255 c omnetpp::cMessage n "" pe -1
+CM id 256 tid 256 eid 256 etid 256 c omnetpp::cMessage n "" pe -1
+CM id 257 tid 257 eid 257 etid 257 c omnetpp::cMessage n "" pe -1
+CM id 258 tid 258 eid 258 etid 258 c omnetpp::cMessage n "" pe -1
+CM id 259 tid 259 eid 259 etid 259 c omnetpp::cMessage n "" pe -1
+CM id 260 tid 260 eid 260 etid 260 c omnetpp::cMessage n "" pe -1
+CM id 261 tid 261 eid 261 etid 261 c omnetpp::cMessage n "" pe -1
+CM id 262 tid 262 eid 262 etid 262 c omnetpp::cMessage n "" pe -1
+CM id 263 tid 263 eid 263 etid 263 c omnetpp::cMessage n "" pe -1
+CM id 264 tid 264 eid 264 etid 264 c omnetpp::cMessage n "" pe -1
+CM id 265 tid 265 eid 265 etid 265 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 265 tid 265 eid 265 etid 265 c omnetpp::cMessage n nuevoArchivo sm 2 st 424170 am 2 at 849130 pe 165
+ES id 265 tid 265 eid 265 etid 265 c omnetpp::cMessage n nuevoArchivo sm 2 st 424170 am 2 at 849130 pe 165
+
+E # 166 t 466940 m 2 ce 0 msg 16
+CM id 266 tid 266 eid 266 etid 266 c omnetpp::cMessage n "" pe -1
+CM id 267 tid 267 eid 267 etid 267 c omnetpp::cMessage n "" pe -1
+CM id 268 tid 268 eid 268 etid 268 c omnetpp::cMessage n "" pe -1
+CM id 269 tid 269 eid 269 etid 269 c omnetpp::cMessage n "" pe -1
+CM id 270 tid 270 eid 270 etid 270 c omnetpp::cMessage n "" pe -1
+CM id 271 tid 271 eid 271 etid 271 c omnetpp::cMessage n "" pe -1
+CM id 272 tid 272 eid 272 etid 272 c omnetpp::cMessage n "" pe -1
+CM id 273 tid 273 eid 273 etid 273 c omnetpp::cMessage n "" pe -1
+CM id 274 tid 274 eid 274 etid 274 c omnetpp::cMessage n "" pe -1
+CM id 275 tid 275 eid 275 etid 275 c omnetpp::cMessage n "" pe -1
+CM id 276 tid 276 eid 276 etid 276 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 276 tid 276 eid 276 etid 276 c omnetpp::cMessage n nuevoArchivo sm 2 st 466940 am 2 at 934610 pe 166
+ES id 276 tid 276 eid 276 etid 276 c omnetpp::cMessage n nuevoArchivo sm 2 st 466940 am 2 at 934610 pe 166
+
+E # 167 t 472710 m 2 ce 0 msg 17
+CM id 277 tid 277 eid 277 etid 277 c omnetpp::cMessage n "" pe -1
+CM id 278 tid 278 eid 278 etid 278 c omnetpp::cMessage n "" pe -1
+CM id 279 tid 279 eid 279 etid 279 c omnetpp::cMessage n "" pe -1
+CM id 280 tid 280 eid 280 etid 280 c omnetpp::cMessage n "" pe -1
+CM id 281 tid 281 eid 281 etid 281 c omnetpp::cMessage n "" pe -1
+CM id 282 tid 282 eid 282 etid 282 c omnetpp::cMessage n "" pe -1
+CM id 283 tid 283 eid 283 etid 283 c omnetpp::cMessage n "" pe -1
+CM id 284 tid 284 eid 284 etid 284 c omnetpp::cMessage n "" pe -1
+CM id 285 tid 285 eid 285 etid 285 c omnetpp::cMessage n "" pe -1
+CM id 286 tid 286 eid 286 etid 286 c omnetpp::cMessage n "" pe -1
+CM id 287 tid 287 eid 287 etid 287 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 287 tid 287 eid 287 etid 287 c omnetpp::cMessage n nuevoArchivo sm 2 st 472710 am 2 at 946130 pe 167
+ES id 287 tid 287 eid 287 etid 287 c omnetpp::cMessage n nuevoArchivo sm 2 st 472710 am 2 at 946130 pe 167
+
+E # 168 t 499210 m 2 ce 95 msg 169
+BS id 277 tid 277 eid 277 etid 277 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 277 tid 277 eid 277 etid 277 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 499210 am 3 ag 0 at 499240 pe 168
+CL id 288 tid 277 eid 288 etid 277 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 277
+CM id 288 tid 288 eid 288 etid 288 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 288 tid 288 eid 288 etid 288 c omnetpp::cMessage n nuevoArchivo sm 2 st 499210 am 2 at 499240 pe 168
+ES id 288 tid 288 eid 288 etid 288 c omnetpp::cMessage n nuevoArchivo sm 2 st 499210 am 2 at 499240 pe 168
+
+E # 169 t 499240 m 3 ce 168 msg 277
+
+E # 170 t 499240 m 2 ce 168 msg 288
+BS id 278 tid 278 eid 278 etid 278 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 278 tid 278 eid 278 etid 278 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 499240 am 3 ag 0 at 499270 pe 170
+CL id 289 tid 278 eid 289 etid 278 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 278
+CM id 289 tid 289 eid 289 etid 289 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 289 tid 289 eid 289 etid 289 c omnetpp::cMessage n nuevoArchivo sm 2 st 499240 am 2 at 499270 pe 170
+ES id 289 tid 289 eid 289 etid 289 c omnetpp::cMessage n nuevoArchivo sm 2 st 499240 am 2 at 499270 pe 170
+
+E # 171 t 499270 m 3 ce 170 msg 278
+
+E # 172 t 499270 m 2 ce 170 msg 289
+BS id 279 tid 279 eid 279 etid 279 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 167
+SH sm 2 sg 1 td 200 rd 200
+ES id 279 tid 279 eid 279 etid 279 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 499270 am 3 ag 0 at 499470 pe 172
+CL id 290 tid 279 eid 290 etid 279 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 279
+CM id 290 tid 290 eid 290 etid 290 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 290 tid 290 eid 290 etid 290 c omnetpp::cMessage n nuevoArchivo sm 2 st 499270 am 2 at 499470 pe 172
+ES id 290 tid 290 eid 290 etid 290 c omnetpp::cMessage n nuevoArchivo sm 2 st 499270 am 2 at 499470 pe 172
+
+E # 173 t 499470 m 3 ce 172 msg 279
+
+E # 174 t 499470 m 2 ce 172 msg 290
+BS id 280 tid 280 eid 280 etid 280 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 280 tid 280 eid 280 etid 280 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 499470 am 3 ag 0 at 499500 pe 174
+CL id 291 tid 280 eid 291 etid 280 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 280
+CM id 291 tid 291 eid 291 etid 291 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 291 tid 291 eid 291 etid 291 c omnetpp::cMessage n nuevoArchivo sm 2 st 499470 am 2 at 499500 pe 174
+ES id 291 tid 291 eid 291 etid 291 c omnetpp::cMessage n nuevoArchivo sm 2 st 499470 am 2 at 499500 pe 174
+
+E # 175 t 499500 m 3 ce 174 msg 280
+
+E # 176 t 499500 m 2 ce 174 msg 291
+BS id 281 tid 281 eid 281 etid 281 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 281 tid 281 eid 281 etid 281 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 499500 am 3 ag 0 at 499530 pe 176
+CL id 292 tid 281 eid 292 etid 281 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 281
+CM id 292 tid 292 eid 292 etid 292 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 292 tid 292 eid 292 etid 292 c omnetpp::cMessage n nuevoArchivo sm 2 st 499500 am 2 at 499530 pe 176
+ES id 292 tid 292 eid 292 etid 292 c omnetpp::cMessage n nuevoArchivo sm 2 st 499500 am 2 at 499530 pe 176
+
+E # 177 t 499530 m 3 ce 176 msg 281
+
+E # 178 t 499530 m 2 ce 176 msg 292
+BS id 282 tid 282 eid 282 etid 282 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 282 tid 282 eid 282 etid 282 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 499530 am 3 ag 0 at 499560 pe 178
+CL id 293 tid 282 eid 293 etid 282 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 282
+CM id 293 tid 293 eid 293 etid 293 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 293 tid 293 eid 293 etid 293 c omnetpp::cMessage n nuevoArchivo sm 2 st 499530 am 2 at 499560 pe 178
+ES id 293 tid 293 eid 293 etid 293 c omnetpp::cMessage n nuevoArchivo sm 2 st 499530 am 2 at 499560 pe 178
+
+E # 179 t 499560 m 3 ce 178 msg 282
+
+E # 180 t 499560 m 2 ce 178 msg 293
+BS id 283 tid 283 eid 283 etid 283 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 283 tid 283 eid 283 etid 283 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 499560 am 3 ag 0 at 499590 pe 180
+CL id 294 tid 283 eid 294 etid 283 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 283
+CM id 294 tid 294 eid 294 etid 294 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 294 tid 294 eid 294 etid 294 c omnetpp::cMessage n nuevoArchivo sm 2 st 499560 am 2 at 499590 pe 180
+ES id 294 tid 294 eid 294 etid 294 c omnetpp::cMessage n nuevoArchivo sm 2 st 499560 am 2 at 499590 pe 180
+
+E # 181 t 499590 m 3 ce 180 msg 283
+
+E # 182 t 499590 m 2 ce 180 msg 294
+BS id 284 tid 284 eid 284 etid 284 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 284 tid 284 eid 284 etid 284 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 499590 am 3 ag 0 at 499620 pe 182
+CL id 295 tid 284 eid 295 etid 284 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 284
+CM id 295 tid 295 eid 295 etid 295 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 295 tid 295 eid 295 etid 295 c omnetpp::cMessage n nuevoArchivo sm 2 st 499590 am 2 at 499620 pe 182
+ES id 295 tid 295 eid 295 etid 295 c omnetpp::cMessage n nuevoArchivo sm 2 st 499590 am 2 at 499620 pe 182
+
+E # 183 t 499620 m 3 ce 182 msg 284
+
+E # 184 t 499620 m 2 ce 182 msg 295
+BS id 285 tid 285 eid 285 etid 285 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 285 tid 285 eid 285 etid 285 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 499620 am 3 ag 0 at 499650 pe 184
+CL id 296 tid 285 eid 296 etid 285 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 285
+CM id 296 tid 296 eid 296 etid 296 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 296 tid 296 eid 296 etid 296 c omnetpp::cMessage n nuevoArchivo sm 2 st 499620 am 2 at 499650 pe 184
+ES id 296 tid 296 eid 296 etid 296 c omnetpp::cMessage n nuevoArchivo sm 2 st 499620 am 2 at 499650 pe 184
+
+E # 185 t 499650 m 3 ce 184 msg 285
+
+E # 186 t 499650 m 2 ce 184 msg 296
+BS id 286 tid 286 eid 286 etid 286 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 167
+SH sm 2 sg 1 td 30 rd 30
+ES id 286 tid 286 eid 286 etid 286 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 499650 am 3 ag 0 at 499680 pe 186
+CL id 297 tid 286 eid 297 etid 286 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 286
+CM id 297 tid 297 eid 297 etid 297 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 297 tid 297 eid 297 etid 297 c omnetpp::cMessage n nuevoArchivo sm 2 st 499650 am 2 at 499680 pe 186
+ES id 297 tid 297 eid 297 etid 297 c omnetpp::cMessage n nuevoArchivo sm 2 st 499650 am 2 at 499680 pe 186
+
+E # 187 t 499680 m 3 ce 186 msg 286
+
+E # 188 t 499680 m 2 ce 186 msg 297
+
+E # 189 t 506000 m 2 ce 0 msg 18
+CM id 298 tid 298 eid 298 etid 298 c omnetpp::cMessage n "" pe -1
+CM id 299 tid 299 eid 299 etid 299 c omnetpp::cMessage n "" pe -1
+CM id 300 tid 300 eid 300 etid 300 c omnetpp::cMessage n "" pe -1
+CM id 301 tid 301 eid 301 etid 301 c omnetpp::cMessage n "" pe -1
+CM id 302 tid 302 eid 302 etid 302 c omnetpp::cMessage n "" pe -1
+CM id 303 tid 303 eid 303 etid 303 c omnetpp::cMessage n "" pe -1
+CM id 304 tid 304 eid 304 etid 304 c omnetpp::cMessage n "" pe -1
+CM id 305 tid 305 eid 305 etid 305 c omnetpp::cMessage n "" pe -1
+CM id 306 tid 306 eid 306 etid 306 c omnetpp::cMessage n "" pe -1
+CM id 307 tid 307 eid 307 etid 307 c omnetpp::cMessage n "" pe -1
+CM id 308 tid 308 eid 308 etid 308 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 308 tid 308 eid 308 etid 308 c omnetpp::cMessage n nuevoArchivo sm 2 st 506000 am 2 at 1012610 pe 189
+ES id 308 tid 308 eid 308 etid 308 c omnetpp::cMessage n nuevoArchivo sm 2 st 506000 am 2 at 1012610 pe 189
+
+E # 190 t 510760 m 2 ce 96 msg 180
+BS id 298 tid 298 eid 298 etid 298 c ArchivoAdquisicion n "archivo 1" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 298 tid 298 eid 298 etid 298 c ArchivoAdquisicion n "archivo 1" l 120000000 sm 2 sg 1 st 510760 am 3 ag 0 at 510790 pe 190
+CL id 309 tid 298 eid 309 etid 298 c omnetpp::cMessage n "archivo 1" m 2 pe -1 cid 298
+CM id 309 tid 309 eid 309 etid 309 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 309 tid 309 eid 309 etid 309 c omnetpp::cMessage n nuevoArchivo sm 2 st 510760 am 2 at 510790 pe 190
+ES id 309 tid 309 eid 309 etid 309 c omnetpp::cMessage n nuevoArchivo sm 2 st 510760 am 2 at 510790 pe 190
+
+E # 191 t 510790 m 3 ce 190 msg 298
+
+E # 192 t 510790 m 2 ce 190 msg 309
+BS id 299 tid 299 eid 299 etid 299 c ArchivoAdquisicion n "archivo 2" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 299 tid 299 eid 299 etid 299 c ArchivoAdquisicion n "archivo 2" l 120000000 sm 2 sg 1 st 510790 am 3 ag 0 at 510820 pe 192
+CL id 310 tid 299 eid 310 etid 299 c omnetpp::cMessage n "archivo 2" m 2 pe -1 cid 299
+CM id 310 tid 310 eid 310 etid 310 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 310 tid 310 eid 310 etid 310 c omnetpp::cMessage n nuevoArchivo sm 2 st 510790 am 2 at 510820 pe 192
+ES id 310 tid 310 eid 310 etid 310 c omnetpp::cMessage n nuevoArchivo sm 2 st 510790 am 2 at 510820 pe 192
+
+E # 193 t 510820 m 3 ce 192 msg 299
+
+E # 194 t 510820 m 2 ce 192 msg 310
+BS id 300 tid 300 eid 300 etid 300 c ArchivoAdquisicion n "archivo 3" l 800000000 m 2 pe 189
+SH sm 2 sg 1 td 200 rd 200
+ES id 300 tid 300 eid 300 etid 300 c ArchivoAdquisicion n "archivo 3" l 800000000 sm 2 sg 1 st 510820 am 3 ag 0 at 511020 pe 194
+CL id 311 tid 300 eid 311 etid 300 c omnetpp::cMessage n "archivo 3" m 2 pe -1 cid 300
+CM id 311 tid 311 eid 311 etid 311 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 311 tid 311 eid 311 etid 311 c omnetpp::cMessage n nuevoArchivo sm 2 st 510820 am 2 at 511020 pe 194
+ES id 311 tid 311 eid 311 etid 311 c omnetpp::cMessage n nuevoArchivo sm 2 st 510820 am 2 at 511020 pe 194
+
+E # 195 t 511020 m 3 ce 194 msg 300
+
+E # 196 t 511020 m 2 ce 194 msg 311
+BS id 301 tid 301 eid 301 etid 301 c ArchivoAdquisicion n "archivo 4" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 301 tid 301 eid 301 etid 301 c ArchivoAdquisicion n "archivo 4" l 120000000 sm 2 sg 1 st 511020 am 3 ag 0 at 511050 pe 196
+CL id 312 tid 301 eid 312 etid 301 c omnetpp::cMessage n "archivo 4" m 2 pe -1 cid 301
+CM id 312 tid 312 eid 312 etid 312 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 312 tid 312 eid 312 etid 312 c omnetpp::cMessage n nuevoArchivo sm 2 st 511020 am 2 at 511050 pe 196
+ES id 312 tid 312 eid 312 etid 312 c omnetpp::cMessage n nuevoArchivo sm 2 st 511020 am 2 at 511050 pe 196
+
+E # 197 t 511050 m 3 ce 196 msg 301
+
+E # 198 t 511050 m 2 ce 196 msg 312
+BS id 302 tid 302 eid 302 etid 302 c ArchivoAdquisicion n "archivo 5" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 302 tid 302 eid 302 etid 302 c ArchivoAdquisicion n "archivo 5" l 120000000 sm 2 sg 1 st 511050 am 3 ag 0 at 511080 pe 198
+CL id 313 tid 302 eid 313 etid 302 c omnetpp::cMessage n "archivo 5" m 2 pe -1 cid 302
+CM id 313 tid 313 eid 313 etid 313 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 313 tid 313 eid 313 etid 313 c omnetpp::cMessage n nuevoArchivo sm 2 st 511050 am 2 at 511080 pe 198
+ES id 313 tid 313 eid 313 etid 313 c omnetpp::cMessage n nuevoArchivo sm 2 st 511050 am 2 at 511080 pe 198
+
+E # 199 t 511080 m 3 ce 198 msg 302
+
+E # 200 t 511080 m 2 ce 198 msg 313
+BS id 303 tid 303 eid 303 etid 303 c ArchivoAdquisicion n "archivo 6" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 303 tid 303 eid 303 etid 303 c ArchivoAdquisicion n "archivo 6" l 120000000 sm 2 sg 1 st 511080 am 3 ag 0 at 511110 pe 200
+CL id 314 tid 303 eid 314 etid 303 c omnetpp::cMessage n "archivo 6" m 2 pe -1 cid 303
+CM id 314 tid 314 eid 314 etid 314 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 314 tid 314 eid 314 etid 314 c omnetpp::cMessage n nuevoArchivo sm 2 st 511080 am 2 at 511110 pe 200
+ES id 314 tid 314 eid 314 etid 314 c omnetpp::cMessage n nuevoArchivo sm 2 st 511080 am 2 at 511110 pe 200
+
+E # 201 t 511110 m 3 ce 200 msg 303
+
+E # 202 t 511110 m 2 ce 200 msg 314
+BS id 304 tid 304 eid 304 etid 304 c ArchivoAdquisicion n "archivo 7" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 304 tid 304 eid 304 etid 304 c ArchivoAdquisicion n "archivo 7" l 120000000 sm 2 sg 1 st 511110 am 3 ag 0 at 511140 pe 202
+CL id 315 tid 304 eid 315 etid 304 c omnetpp::cMessage n "archivo 7" m 2 pe -1 cid 304
+CM id 315 tid 315 eid 315 etid 315 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 315 tid 315 eid 315 etid 315 c omnetpp::cMessage n nuevoArchivo sm 2 st 511110 am 2 at 511140 pe 202
+ES id 315 tid 315 eid 315 etid 315 c omnetpp::cMessage n nuevoArchivo sm 2 st 511110 am 2 at 511140 pe 202
+
+E # 203 t 511140 m 3 ce 202 msg 304
+
+E # 204 t 511140 m 2 ce 202 msg 315
+BS id 305 tid 305 eid 305 etid 305 c ArchivoAdquisicion n "archivo 8" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 305 tid 305 eid 305 etid 305 c ArchivoAdquisicion n "archivo 8" l 120000000 sm 2 sg 1 st 511140 am 3 ag 0 at 511170 pe 204
+CL id 316 tid 305 eid 316 etid 305 c omnetpp::cMessage n "archivo 8" m 2 pe -1 cid 305
+CM id 316 tid 316 eid 316 etid 316 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 316 tid 316 eid 316 etid 316 c omnetpp::cMessage n nuevoArchivo sm 2 st 511140 am 2 at 511170 pe 204
+ES id 316 tid 316 eid 316 etid 316 c omnetpp::cMessage n nuevoArchivo sm 2 st 511140 am 2 at 511170 pe 204
+
+E # 205 t 511170 m 3 ce 204 msg 305
+
+E # 206 t 511170 m 2 ce 204 msg 316
+BS id 306 tid 306 eid 306 etid 306 c ArchivoAdquisicion n "archivo 9" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 306 tid 306 eid 306 etid 306 c ArchivoAdquisicion n "archivo 9" l 120000000 sm 2 sg 1 st 511170 am 3 ag 0 at 511200 pe 206
+CL id 317 tid 306 eid 317 etid 306 c omnetpp::cMessage n "archivo 9" m 2 pe -1 cid 306
+CM id 317 tid 317 eid 317 etid 317 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 317 tid 317 eid 317 etid 317 c omnetpp::cMessage n nuevoArchivo sm 2 st 511170 am 2 at 511200 pe 206
+ES id 317 tid 317 eid 317 etid 317 c omnetpp::cMessage n nuevoArchivo sm 2 st 511170 am 2 at 511200 pe 206
+
+E # 207 t 511200 m 3 ce 206 msg 306
+
+E # 208 t 511200 m 2 ce 206 msg 317
+BS id 307 tid 307 eid 307 etid 307 c ArchivoAdquisicion n "archivo 10" l 120000000 m 2 pe 189
+SH sm 2 sg 1 td 30 rd 30
+ES id 307 tid 307 eid 307 etid 307 c ArchivoAdquisicion n "archivo 10" l 120000000 sm 2 sg 1 st 511200 am 3 ag 0 at 511230 pe 208
+CL id 318 tid 307 eid 318 etid 307 c omnetpp::cMessage n "archivo 10" m 2 pe -1 cid 307
+CM id 318 tid 318 eid 318 etid 318 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 318 tid 318 eid 318 etid 318 c omnetpp::cMessage n nuevoArchivo sm 2 st 511200 am 2 at 511230 pe 208
+ES id 318 tid 318 eid 318 etid 318 c omnetpp::cMessage n nuevoArchivo sm 2 st 511200 am 2 at 511230 pe 208
+
+E # 209 t 511230 m 3 ce 208 msg 307
+
+E # 210 t 511230 m 2 ce 208 msg 318
+
+E # 211 t 511650 m 2 ce 0 msg 19
+CM id 319 tid 319 eid 319 etid 319 c omnetpp::cMessage n "" pe -1
+CM id 320 tid 320 eid 320 etid 320 c omnetpp::cMessage n "" pe -1
+CM id 321 tid 321 eid 321 etid 321 c omnetpp::cMessage n "" pe -1
+CM id 322 tid 322 eid 322 etid 322 c omnetpp::cMessage n "" pe -1
+CM id 323 tid 323 eid 323 etid 323 c omnetpp::cMessage n "" pe -1
+CM id 324 tid 324 eid 324 etid 324 c omnetpp::cMessage n "" pe -1
+CM id 325 tid 325 eid 325 etid 325 c omnetpp::cMessage n "" pe -1
+CM id 326 tid 326 eid 326 etid 326 c omnetpp::cMessage n "" pe -1
+CM id 327 tid 327 eid 327 etid 327 c omnetpp::cMessage n "" pe -1
+CM id 328 tid 328 eid 328 etid 328 c omnetpp::cMessage n "" pe -1
+CM id 329 tid 329 eid 329 etid 329 c omnetpp::cMessage n nuevoArchivo pe -1
+BS id 329 tid 329 eid 329 etid 329 c omnetpp::cMessage n nuevoArchivo sm 2 st 511650 am 2 at 1024080 pe 211
+ES id 329 tid 329 eid 329 etid 329 c omnetpp::cMessage n nuevoArchivo sm 2 st 511650 am 2 at 1024080 pe 211
+
+
+SE e 0 c 38 m "Simulation time limit reached -- at t=518400s, event #212"

@@ -1,0 +1,48 @@
+version 3
+run General-0-20250212-20:00:08-21676
+attr configname General
+attr datetime 20250212-20:00:08
+attr datetimef 20250212-200008
+attr experiment General
+attr inifile SAOCOM.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network SAOCOMNetwork
+attr processid 21676
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network SAOCOMNetwork
+config record-eventlog true
+config sim-time-limit 518400s
+config **.vector-recording true
+config *.groundNetworkChannel.usageTime.record true
+config output-vector-file results.vec
+config *.sim_start_time_year 2019
+config *.sim_start_time_month 2
+config *.sim_start_time_day 23
+
+par SAOCOMNetwork.GS.out.channel typename "\"SAOCOMNetwork.GroundNetworkChannel\""
+par SAOCOMNetwork.GS.out.channel disabled false
+attr mutable ""
+par SAOCOMNetwork.GS.out.channel delay 0s
+attr mutable ""
+attr unit s
+par SAOCOMNetwork.GS.out.channel datarate 4e+06bps
+attr mutable ""
+attr unit bps
+par SAOCOMNetwork.GS.out.channel ber 0
+attr mutable ""
+par SAOCOMNetwork.GS.out.channel per 0
+attr mutable ""
+par SAOCOMNetwork.GS.out.channel sim_start_time_year 2019
+par SAOCOMNetwork.GS.out.channel sim_start_time_month 2
+par SAOCOMNetwork.GS.out.channel sim_start_time_day 23
+par SAOCOMNetwork.GS typename "\"GroundStation\""
+par SAOCOMNetwork.USS typename "\"USS\""
+par SAOCOMNetwork typename "\"SAOCOMNetwork\""
+

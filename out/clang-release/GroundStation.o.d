@@ -1,7 +1,13 @@
 out/clang-release//GroundStation.o: GroundStation.cc \
-  C:/Hernan/OMNeTpp/omnetpp-6.0.3/include/omnetpp.h \
-  archivoAdquisicion_m.h
+  C:/Omnetpp/omnetpp-6.1/include/omnetpp.h archivoAdquisicion_m.h \
+  Evento_m.h tiempo.h metricas.h
 
-C:/Hernan/OMNeTpp/omnetpp-6.0.3/include/omnetpp.h:
+C:/Omnetpp/omnetpp-6.1/include/omnetpp.h:
 
 archivoAdquisicion_m.h:
+
+Evento_m.h:
+
+tiempo.h:
+
+metricas.h:

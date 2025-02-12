@@ -33,11 +33,19 @@ PROJECTRELATIVE_PATH =
 O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 
 # Object files for local .cc, .msg and .sm files
-OBJS = $O/GroundNetworkChannel.o $O/GroundStation.o $O/USS.o $O/archivoAdquisicion_m.o
+OBJS = \
+    $O/GroundNetworkChannel.o \
+    $O/GroundStation.o \
+    $O/metricas.o \
+    $O/tiempo.o \
+    $O/USS.o \
+    $O/archivoAdquisicion_m.o \
+    $O/Evento_m.o
 
 # Message files
 MSGFILES = \
-    archivoAdquisicion.msg
+    archivoAdquisicion.msg \
+    Evento.msg
 
 # SM files
 SMFILES =
